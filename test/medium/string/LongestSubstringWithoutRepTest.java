@@ -1,4 +1,4 @@
-package longest_substring;
+package medium.string;
 
 import org.junit.Test;
 

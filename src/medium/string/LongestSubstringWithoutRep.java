@@ -1,4 +1,4 @@
-package longest_substring;
+package medium.string;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

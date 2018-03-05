@@ -1,6 +1,6 @@
-package addtwo;
+package medium.linkedlist;
 
-import tools.ListNode;
+import utils.ListNode;
 
 /**
  * You are given two non-empty linked lists representing

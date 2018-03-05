@@ -1,11 +1,11 @@
-package addtwo;
+package medium.linkedlist;
 
 import java.util.Arrays;
 
 import org.junit.Test;
 
-import tools.ListNode;
-import tools.ListUtils;
+import utils.ListNode;
+import utils.ListUtils;
 
 public class AddTwoNumbersTest {
 	
