@@ -24,7 +24,7 @@ public class ReverseInteger {
 	 * 测试函数
 	 */
 	public static void main(String[] args) {
-		int a = 1200;
+		int a = 1923;
 		ReverseInteger sol = new ReverseInteger();
 		int reverse = sol.reverse(a);
 		System.out.println(reverse);
