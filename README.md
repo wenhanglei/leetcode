@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|6|[Roman to Integer](src/medium/string/RomanToInteger.java)|java|Easy|
 |5|[Palindrome Number](src/easy/math/PalindromeNumber.java)|java|Easy|
 |4|[Reverse Integer](src/easy/math/ReverseInteger.java)|java|Easy|
 |3|[Longest Substring Without Repeating Characters](src/medium/string/LongestSubstringWithoutRep.java)|java|Medium|
