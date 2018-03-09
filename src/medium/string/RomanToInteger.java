@@ -5,15 +5,31 @@ package medium.string;
  * @author wenhanglei
  */
 public class RomanToInteger {
+	/*
+	 * 思路：
+	 * 计算每一个字符代表的数字之和最后减去特殊情况
+	 */
 	public int romanToInt(String s) {
-		if(s == "I") return 1;
-		if(s == "V") return 5;
-		if(s == "X") return 10;
-		if(s == "L") return 50;
-		if(s == "C") return 100;
-		if(s == "D") return 500;
-		if(s == "M") return 1000;
-		return 0;
+		//结果变量
+		int sum = 0;
+		//先去除异常情况
+		if(s.indexOf("IV") != -1) sum -= 2;
+		if(s.indexOf("IX") != -1) sum -= 2;
+		if(s.indexOf("XL") != -1) sum -= 20;
+		if(s.indexOf("XC") != -1) sum -= 20;
+		if(s.indexOf("CD") != -1) sum -= 200;
+		if(s.indexOf("CM") != -1) sum -= 200;
+		char[] chars = s.toCharArray();
+		for(int i = 0; i < chars.length; i++){
+			if(chars[i] == 'I') sum += 1;
+			if(chars[i] == 'V') sum += 5;
+			if(chars[i] == 'X') sum += 10;
+			if(chars[i] == 'L') sum += 50;
+			if(chars[i] == 'C') sum += 100;
+			if(chars[i] == 'D') sum += 500;
+			if(chars[i] == 'M') sum += 1000;
+		}
+		return sum;
     }
 	
 	/**
@@ -27,10 +43,13 @@ public class RomanToInteger {
 		String s5 = "C";
 		String s6 = "D";
 		String s7 = "M";
+		String[] s = {s1, s2, s3, s4, s5, s6, s7};
 		
 		RomanToInteger sol = new RomanToInteger();
-		int romanToInt = sol.romanToInt(s1);
-		System.out.println(romanToInt);
+		for(int i = 0; i < s.length; i++){
+			int rom = sol.romanToInt(s[i]);
+			System.out.println(rom);
+		}
 		
 	}
 }
