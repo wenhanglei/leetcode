@@ -7,7 +7,7 @@ package easy.string;
 public class LongestCommonPrefix {
 	/*
 	 * 思路：
-	 * 字典树
+	 * 简单的循环检查
 	 */
 	public String longestCommonPrefix(String[] strs) {
 		StringBuilder res = new StringBuilder();
