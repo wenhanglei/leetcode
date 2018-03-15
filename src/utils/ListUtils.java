@@ -9,13 +9,20 @@ import java.util.ArrayList;
 public class ListUtils {
 	
 	/**
-	 * 根据数组获得相应链表的头结点
+	 * 根据int数组获得相应链表的头结点ListNode
+	 * @param arr int型数组
+	 * @return ListNode int值组成的链表
 	 */
 	public static ListNode getList(int[] arr){
 		if(arr == null) return null;
 		return getList(arr, 0);
 	}
 	
+	/**
+	 * 根据链表list生成对应的Object对象数组
+	 * @param list int值组成的链表
+	 * @return Object对象数组
+	 */
 	public static Object[] getArray(ListNode list){
 		ArrayList<Integer> arr = new ArrayList<>();
 		while(list != null){

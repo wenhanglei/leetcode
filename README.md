@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|9|[Merge Two Sorted Lists](src/easy/linkedlist/MergeTwoSortedLists.java)|java|Easy|
 |8|[Valid Parentheses](src/easy/stack/ValidParentheses.java)|java|Easy|
 |7|[Longest Common Prefix](src/easy/string/LongestCommonPrefix.java)|java|Easy|
 |6|[Roman to Integer](src/medium/string/RomanToInteger.java)|java|Easy|
