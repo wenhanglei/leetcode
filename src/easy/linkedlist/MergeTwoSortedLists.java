@@ -13,6 +13,10 @@ import utils.ListUtils;
  */
 public class MergeTwoSortedLists {
 	public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+		//边界检查
+		if(l1 == null && l2 == null) return null;
+		if(l1 == null) return l2;
+		if(l2 == null) return l1;
 		//哨兵节点
 		ListNode sentinel = new ListNode(-1);
 		ListNode curr = sentinel;
@@ -26,17 +30,12 @@ public class MergeTwoSortedLists {
 			}
 			curr = curr.next;
 		}
-		while(l1 != null){
+		if(l1 != null){
 			curr.next = l1;
-			curr = curr.next;
-			l1 = l1.next;
 		}
-		while(l2 != null){
+		if(l2 != null){
 			curr.next = l2;
-			curr= curr.next;
-			l2 = l2.next;
 		}
-		
         return sentinel.next;
     }
 	
