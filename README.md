@@ -4,7 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|11|[Remove Element]|(src/easy/twopointer/RemoveElement.java)|java|Easy|
+|11|[Remove Element](src/easy/twopointer/RemoveElement.java)|java|Easy|
 |10|[Remove Duplicates from Sorted Array](src/easy/array/RemoveDuplicatesfromSortedArray.java)|java|Easy|
 |9|[Merge Two Sorted Lists](src/easy/linkedlist/MergeTwoSortedLists.java)|java|Easy|
 |8|[Valid Parentheses](src/easy/stack/ValidParentheses.java)|java|Easy|
