@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|13|[Search Insert Position](src/easy/array/SearchInsertPosition.java)|java|Easy|
 |12|[Implement strStr()](src/easy/string/ImplementstrStr.java)|java|Easy|
 |11|[Remove Element](src/easy/twopointer/RemoveElement.java)|java|Easy|
 |10|[Remove Duplicates from Sorted Array](src/easy/array/RemoveDuplicatesfromSortedArray.java)|java|Easy|
