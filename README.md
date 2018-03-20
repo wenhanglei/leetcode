@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|14|[Count and Say](src/easy/string/CountandSay.java)|java|Easy|
 |13|[Search Insert Position](src/easy/array/SearchInsertPosition.java)|java|Easy|
 |12|[Implement strStr()](src/easy/string/ImplementstrStr.java)|java|Easy|
 |11|[Remove Element](src/easy/twopointer/RemoveElement.java)|java|Easy|
