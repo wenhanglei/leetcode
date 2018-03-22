@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|17|[Plus One](src/easy/math/PlusOne.java)|java|Easy|
 |16|[Length of Last Word](src/easy/string/LengthofLastWord.java)|java|Easy|
 |15|[Maximum Subarray](src/easy/array/MaximumSubarray.java)|java|Easy|
 |14|[Count and Say](src/easy/string/CountandSay.java)|java|Easy|
