@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|19|[Sqatr(x)](src/easy/math/Sqrt.java)|java|Easy|
 |18|[Add Binary](src/easy/math/AddBinary.java)|java|Easy|
 |17|[Plus One](src/easy/math/PlusOne.java)|java|Easy|
 |16|[Length of Last Word](src/easy/string/LengthofLastWord.java)|java|Easy|
