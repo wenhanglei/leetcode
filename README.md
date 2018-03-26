@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|21|[Remove Duplicates from Sorted List](src/easy/linkedlist/RemoveDuplicatesfromSortedList.java)|java|Easy|
 |20|[Climbing Stairs](src/easy/dynamic_programming/ClimbingStairs.java)|java|Easy|
 |19|[Sqatr(x)](src/easy/math/Sqrt.java)|java|Easy|
 |18|[Add Binary](src/easy/math/AddBinary.java)|java|Easy|
