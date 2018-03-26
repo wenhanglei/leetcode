@@ -1,4 +1,4 @@
-package utils;
+package easy.linkedlist;
 
 public class ListNode {
 	public int val;

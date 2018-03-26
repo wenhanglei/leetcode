@@ -1,6 +1,6 @@
 package medium.linkedlist;
 
-import utils.ListNode;
+import easy.linkedlist.ListNode;
 
 /**
  * You are given two non-empty linked lists representing
