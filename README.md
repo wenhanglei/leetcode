@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|22|[Merge Sorted Array](src/easy/twopointer/MergeSortedArray.java)|java|Easy|
 |21|[Remove Duplicates from Sorted List](src/easy/linkedlist/RemoveDuplicatesfromSortedList.java)|java|Easy|
 |20|[Climbing Stairs](src/easy/dynamic_programming/ClimbingStairs.java)|java|Easy|
 |19|[Sqatr(x)](src/easy/math/Sqrt.java)|java|Easy|
