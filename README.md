@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|24|[Symmetric Tree](src/easy/tree/SymmetricTree.java)|java|Easy|
 |23|[Same Tree](src/easy/tree/SameTree.java)|java|Easy|
 |22|[Merge Sorted Array](src/easy/twopointer/MergeSortedArray.java)|java|Easy|
 |21|[Remove Duplicates from Sorted List](src/easy/linkedlist/RemoveDuplicatesfromSortedList.java)|java|Easy|
