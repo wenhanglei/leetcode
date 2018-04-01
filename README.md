@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|30|[Path Sum](src/easy/tree/PathSum.java)|java|Easy|
 |29|[Minimum Depth of Binary Tree](src/easy/tree/MinimumDepthofBinaryTree.java)|java|Easy|
 |28|[Balanced Binary Tree](src/easy/tree/BalancedBinaryTree.java)|java|Easy|
 |27|[Convert Sorted Array to Binary Search Tree](src/easy/tree/ConvertSortetArraytoBinarySearchTree.java)|java|Easy|
