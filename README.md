@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|31|[Pascal's Triangle](src/easy/array/PascalTriangle.java)|java|Easy|
 |30|[Path Sum](src/easy/tree/PathSum.java)|java|Easy|
 |29|[Minimum Depth of Binary Tree](src/easy/tree/MinimumDepthofBinaryTree.java)|java|Easy|
 |28|[Balanced Binary Tree](src/easy/tree/BalancedBinaryTree.java)|java|Easy|
