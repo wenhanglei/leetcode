@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|33|[Best Time to Buy and Sell Stock]|java|Easy|
 |32|[Pascal's Triangle II](src/easy/array/PascalTriangleII.java)|java|Easy|
 |31|[Pascal's Triangle](src/easy/array/PascalTriangle.java)|java|Easy|
 |30|[Path Sum](src/easy/tree/PathSum.java)|java|Easy|
