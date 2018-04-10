@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|41|[Excel Sheet Column Title](src/easy/math/ExcelSheetColumnTitle.java)|java|Easy|
 |40|[Two Sum II - Input array is sorted](src/easy/array/TwoSumII.java)|java|Easy|
 |39|[Intersection of Two Linked Lists](src/easy/linkedlist/IntersectionOfTwoLinkedLists.java)|java|Easy|
 |38|[Min Stack](src/easy/stack/MinStack.java)|java|Easy|
