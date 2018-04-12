@@ -11,24 +11,36 @@ import java.util.HashMap;
 public class MajorityElement {
 	/*
 	 * 思路：
-	 * 使用map计数
+	 * 使用计数统计
 	 */
 	public int majorityElement(int[] nums) {
-		if (nums == null) return 0;
-        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
-        for(int i = 0; i < nums.length; i++) {
-        	if(map.get(nums[i]) == null){
-        		map.put(nums[i], 1);
-        	}else{
-        		map.put(nums[i], map.get(nums[i])+1);
-        	}
-        }
-        for(Integer i : map.keySet()){
-        	if(map.get(i) > nums.length/2)
-        		return i;
-        }
-        return 0;
+		int count = 0;
+		int candinum = -1;
+		for(int i = 0; i < nums.length; i++){
+			if(nums[i] != candinum){
+				if(count == 0) candinum = nums[i];
+				else count--;
+			}else
+				count++;
+		}
+        return candinum;
     }
+//	public int majorityElement(int[] nums) {
+//		if (nums == null) return 0;
+//        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+//        for(int i = 0; i < nums.length; i++) {
+//        	if(map.get(nums[i]) == null){
+//        		map.put(nums[i], 1);
+//        	}else{
+//        		map.put(nums[i], map.get(nums[i])+1);
+//        	}
+//        }
+//        for(Integer i : map.keySet()){
+//        	if(map.get(i) > nums.length/2)
+//        		return i;
+//        }
+//        return 0;
+//    }
 	
 	/**
 	 * 测试函数
