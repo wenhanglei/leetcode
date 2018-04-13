@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|43|[Excel Sheet Column Number](src/easy/math/ExcelSheetColumnNumber.java)|java|Easy|
 |42|[Majority Element](src/easy/array/MajorityElement.java)|java|Easy|
 |41|[Excel Sheet Column Title](src/easy/math/ExcelSheetColumnTitle.java)|java|Easy|
 |40|[Two Sum II - Input array is sorted](src/easy/array/TwoSumII.java)|java|Easy|
