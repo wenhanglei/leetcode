@@ -6,10 +6,16 @@ package easy.math;
 public class FactorialTrailingZeroes {
 	/*
 	 * 思路：
-	 * 
+	 * 看是否能被5除尽
 	 */
 	public int trailingZeroes(int n) {
-        return 0;
+		int count = 0; 
+		while(n != 0) {
+			int temp = n/5;
+			count += temp;
+			n = temp;
+		}
+        return count;
     }
 	
 	/**
