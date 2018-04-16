@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|45|[Rotate Array](src/easy/array/RotateArray.java)|java|Easy|
 |44|[Factorial Trailing Zeroes](src/easy/math/FactorialTrailingZeroes.java)|java|Easy|
 |43|[Excel Sheet Column Number](src/easy/math/ExcelSheetColumnNumber.java)|java|Easy|
 |42|[Majority Element](src/easy/array/MajorityElement.java)|java|Easy|
