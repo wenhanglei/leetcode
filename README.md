@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|48|[House Robber](src/easy/dynamic_programming/HouseRobber.java)|java|Easy|
 |47|[Number of 1 Bits](src/easy/bit_manipulation/NumberOf1Bits.java)|java|Easy|
 |46|[Reverse Bits](src/easy/bit_manipulation/ReverseBits.java)|java|Easy|
 |45|[Rotate Array](src/easy/array/RotateArray.java)|java|Easy|
