@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|52|[Isomorphic Strings](src/easy/hashtable/IsomorphicStrings.java)|java|Easy|
 |51|[Count Primes](src/easy/hashtable/CountPrimes.java)|java|Easy|
 |50|[Remove Linked List Elements](src/easy/linkedlist/RemoveLinkedListElements.java)|java|Easy|
 |49|[Happy Number](src/easy/hashtable/HappyNumber.java)|java|Easy|
