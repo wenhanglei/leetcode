@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|55|[Contains Duplicate II](src/easy/hashtable/ContainsDuplicateII.java)|java|Easy|
 |54|[Contains Duplicate](src/easy/hashtable/ContainsDuplicate.java)|java|Easy|
 |53|[Reverse Linked List](src/easy/linkedlist/ReverseLinkedList.java)|java|Easy|
 |52|[Isomorphic Strings](src/easy/hashtable/IsomorphicStrings.java)|java|Easy|
