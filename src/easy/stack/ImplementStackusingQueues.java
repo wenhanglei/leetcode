@@ -27,13 +27,9 @@ public class ImplementStackusingQueues {
     
     /** Push element x onto stack. */
     public void push(int x) {
-    	Queue<Integer> temp = new LinkedList<>();
-    	while(!queue.isEmpty()){
-    		temp.offer(queue.poll());
-    	}
         queue.offer(x);
-        while(!temp.isEmpty()){
-        	queue.offer(temp.poll());
+        for(int i = 0; i < queue.size()-1; i++){
+        	queue.offer(queue.poll());
         }
     }
     
