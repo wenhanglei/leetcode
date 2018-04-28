@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|56|[Implement Stack using Queues](src/easy/stack/ImplementStackusingQueues.java)|java|Easy|
 |55|[Contains Duplicate II](src/easy/hashtable/ContainsDuplicateII.java)|java|Easy|
 |54|[Contains Duplicate](src/easy/hashtable/ContainsDuplicate.java)|java|Easy|
 |53|[Reverse Linked List](src/easy/linkedlist/ReverseLinkedList.java)|java|Easy|
