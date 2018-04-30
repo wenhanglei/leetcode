@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|58|[Power of Two](src/easy/bit_manipulation/PowerOfTwo.java)|java|Easy|
 |57|[Invert Binary Tree](src/easy/tree/InvertBinaryTree.java)|java|Easy|
 |56|[Implement Stack using Queues](src/easy/stack/ImplementStackusingQueues.java)|java|Easy|
 |55|[Contains Duplicate II](src/easy/hashtable/ContainsDuplicateII.java)|java|Easy|
