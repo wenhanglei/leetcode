@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|60|[Palindrome Linked List](src/easy/linkedlist/PalindromeLinkedList.java)|java|Easy|
 |59|[Implement Queue using Stacks](src/easy/stack/ImplementQueueUsingStacks.java)|java|Easy|
 |58|[Power of Two](src/easy/bit_manipulation/PowerOfTwo.java)|java|Easy|
 |57|[Invert Binary Tree](src/easy/tree/InvertBinaryTree.java)|java|Easy|
