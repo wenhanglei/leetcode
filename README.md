@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|61|[Lowest Common Ancestor of a Binary Search Tree](src/easy/tree/LowestCommonAncestorOfABinarySearchTree.java)|java|Easy|
 |60|[Palindrome Linked List](src/easy/linkedlist/PalindromeLinkedList.java)|java|Easy|
 |59|[Implement Queue using Stacks](src/easy/stack/ImplementQueueUsingStacks.java)|java|Easy|
 |58|[Power of Two](src/easy/bit_manipulation/PowerOfTwo.java)|java|Easy|
