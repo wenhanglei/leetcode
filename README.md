@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|63|[Valid Anagram](src/easy/sort/ValidAnagram.java)|java|Easy|
 |62|[Delete Node in a Linked List](src/easy/linkedlist/DeleteNodeInALinkedList.java)|java|Easy|
 |61|[Lowest Common Ancestor of a Binary Search Tree](src/easy/tree/LowestCommonAncestorOfABinarySearchTree.java)|java|Easy|
 |60|[Palindrome Linked List](src/easy/linkedlist/PalindromeLinkedList.java)|java|Easy|
