@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|65|[Add Digits](src/easy/math/AddDigits.java)|java|Easy|
 |64|[Binary Tree Paths](src/easy/tree/BinaryTreePaths.java)|java|Easy|
 |63|[Valid Anagram](src/easy/sort/ValidAnagram.java)|java|Easy|
 |62|[Delete Node in a Linked List](src/easy/linkedlist/DeleteNodeInALinkedList.java)|java|Easy|
