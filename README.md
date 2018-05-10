@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|66|[Ugly Number](src/easy/math/UglyNumber.java)|java|Easy|
 |65|[Add Digits](src/easy/math/AddDigits.java)|java|Easy|
 |64|[Binary Tree Paths](src/easy/tree/BinaryTreePaths.java)|java|Easy|
 |63|[Valid Anagram](src/easy/sort/ValidAnagram.java)|java|Easy|
