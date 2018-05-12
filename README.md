@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|68|[First Bad Version](src/easy/binary_search/FirstBadVersion.java)|java|Easy|
 |67|[Missing Number](src/easy/bit_manipulation/MissingNumber.java)|java|Easy|
 |66|[Ugly Number](src/easy/math/UglyNumber.java)|java|Easy|
 |65|[Add Digits](src/easy/math/AddDigits.java)|java|Easy|
