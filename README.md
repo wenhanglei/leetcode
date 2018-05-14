@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|70|[Word Pattern](src/easy/hashtable/WordPattern.java)|java|Easy|
 |69|[Move Zeroes](src/easy/two_pointer/MoveZeroes.java)|java|Easy|
 |68|[First Bad Version](src/easy/binary_search/FirstBadVersion.java)|java|Easy|
 |67|[Missing Number](src/easy/bit_manipulation/MissingNumber.java)|java|Easy|
