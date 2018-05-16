@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|72|[Range Sum Query - Immutable](src/easy/dynamic_programming/RangeSumQuery.java)|java|Easy|
 |71|[Nim Game](src/easy/brainteaser/NimGame.java)|java|Easy|
 |70|[Word Pattern](src/easy/hashtable/WordPattern.java)|java|Easy|
 |69|[Move Zeroes](src/easy/two_pointer/MoveZeroes.java)|java|Easy|
