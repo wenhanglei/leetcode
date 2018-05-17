@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|73|[Power of Three](src/easy/math/PowerOfThree.java)|java|Easy|
 |72|[Range Sum Query - Immutable](src/easy/dynamic_programming/RangeSumQuery.java)|java|Easy|
 |71|[Nim Game](src/easy/brainteaser/NimGame.java)|java|Easy|
 |70|[Word Pattern](src/easy/hashtable/WordPattern.java)|java|Easy|
