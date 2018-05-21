@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|77|[Intersection of Two Arrays](src/easy/binary_search/IntersectionOfTwoArrays.java)|java|Easy|
 |76|[Reverse Vowels of a String](src/easy/string/ReverseVowelsOfAString.java)|java|Easy|
 |75|[Reverse String](src/easy/string/ReverseString.java)|java|Easy|
 |74|[Power of Four](src/easy/bit_manipulation/PowerOfFour.java)|java|Easy|
