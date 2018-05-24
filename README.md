@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|80|[Sum of Two Integers](src/easy/bit_manipulation/SumOfTwoIntegers.java)|java|Easy|
 |79|[Valid Perfect Square](src/easy/binary_search/ValidPerfectSquare.java)|java|Easy|
 |78|[Intersection of Two Arrays II](src/easy/binary_search/IntersectionOfTwoArraysII.java)|java|Easy|
 |77|[Intersection of Two Arrays](src/easy/binary_search/IntersectionOfTwoArrays.java)|java|Easy|
