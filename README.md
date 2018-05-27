@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|82|[Ransom Note](src/easy/string/RansomNote.java)|java|Easy|
 |81|[Guess Number Higher or Lower](src/easy/binary_search/GuessNumberHigherOrLower.java)|java|Easy|
 |80|[Sum of Two Integers](src/easy/bit_manipulation/SumOfTwoIntegers.java)|java|Easy|
 |79|[Valid Perfect Square](src/easy/binary_search/ValidPerfectSquare.java)|java|Easy|
