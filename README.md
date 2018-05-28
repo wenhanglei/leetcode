@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|83|[First Unique Character in a String](src/easy/hashtable/FirstUniqueCharacterInAString.java)|java|Easy|
 |82|[Ransom Note](src/easy/string/RansomNote.java)|java|Easy|
 |81|[Guess Number Higher or Lower](src/easy/binary_search/GuessNumberHigherOrLower.java)|java|Easy|
 |80|[Sum of Two Integers](src/easy/bit_manipulation/SumOfTwoIntegers.java)|java|Easy|
