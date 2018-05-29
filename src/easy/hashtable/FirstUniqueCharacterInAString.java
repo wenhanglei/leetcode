@@ -11,19 +11,16 @@ import java.util.Queue;
 public class FirstUniqueCharacterInAString {
 	/*
 	 * 思路：
-	 * 队列
+	 * 不使用队列，遍历两次即可
+	 * 第一次保存每个字符出现的频率
+	 * 第二次查找一个频率为1的字符即为结果
 	 */
 	public int firstUniqChar(String s) {
 		int[] counts = new int[26];
-		Queue<Integer> q = new LinkedList<>();
-		for(int i = 0; i < s.length(); i++){
-			char c = s.charAt(i);
-			if(counts[c-96]==0){
-				q.offer(i);
-			}else if(q.contains(c)) q.remove(c);
-			counts[c-96]++;
-		}
-		if(!q.isEmpty()) return q.poll();
+		for(int i = 0; i < s.length(); i++)
+			counts[s.charAt(i) - 'a']++;
+		for(int i = 0; i < s.length(); i++)
+			if(counts[s.charAt(i)-'a'] == 1) return i;
 		return -1;
     }
 	
