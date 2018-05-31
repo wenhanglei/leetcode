@@ -9,20 +9,42 @@ package easy.bit_manipulation;
 public class FindTheDifference {
 	/*
 	 * 思路：
+	 * 方案一：
 	 * 使用频率数组保存字符串s中已经出现的字符的次数
 	 * 在遍历字符串t找到新添加的字符
+	 * 
+	 * 方案二：
+	 * 使用位操作中的异或可以排除偶数个数的字符对两个
+	 * 字符串依次进行异或结果即为多出的字符
+	 */
+	/**
+	 * 方案一
+	 */
+//	public char findTheDifference(String s, String t) {
+//        int[] freq = new int[26];
+//        for(int i = 0; i < s.length(); i++)
+//        	freq[s.charAt(i)-'a']++;
+//        for(int i = 0; i < t.length(); i++){
+//        	char ch = t.charAt(i);
+//        	if(freq[ch-'a']==0) return ch;
+//        	else freq[ch-'a']--;
+//        }
+//        return 'a';
+//    }
+	
+	/**
+	 * 方案二
 	 */
 	public char findTheDifference(String s, String t) {
-        int[] freq = new int[26];
-        for(int i = 0; i < s.length(); i++)
-        	freq[s.charAt(i)-'a']++;
-        for(int i = 0; i < t.length(); i++){
-        	char ch = t.charAt(i);
-        	if(freq[ch-'a']==0) return ch;
-        	else freq[ch-'a']--;
-        }
-        return 'a';
-    }
+		char ch = 0;
+		for(int i = 0; i < s.length(); i++){
+			ch ^= s.charAt(i);
+		}
+		for(int i = 0; i < t.length(); i++){
+			ch ^= t.charAt(i);
+		}
+		return ch;
+	}
 	
 	/**
 	 * 测试函数
