@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|86|[Binary Watch](src/easy/bit_manipulation/BinaryWatch.java)|java|Easy|
 |85|[Nth Digit](src/easy/math/NthDigit.java)|java|Easy|
 |84|[Find the Difference](src/easy/bit_manipulation/FindTheDifference.java)|java|Easy|
 |83|[First Unique Character in a String](src/easy/hashtable/FirstUniqueCharacterInAString.java)|java|Easy|
