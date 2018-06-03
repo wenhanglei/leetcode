@@ -23,46 +23,22 @@ public class BinaryWatch {
         return ret;
     }
 	
-	private void help(byte h, byte m, int num, List<String> list){
-		if(num==0){
-			String s = ""+h+":";
-			if(m < 10)
-				s += "0"+m;
-			else s += m;
-			list.add(s);
-			return;
-		}
+	private boolean help(byte h, byte m, int num, List<String> list){
+		//8, 4, 2, 1
+		//32, 16, 8, 4, 2, 1
+		help(h|1, m, num-1, list);
+		help(h|(1<<1), m, num-1, list);
+		help(h|(1<<2), m, num-1, list);
+		help(h|(1<<3), m, num-1, list);
 		
-		if((m&1)==0 && num != 0){
-			help(h, (byte) (m|1), num-1, list);
-		}
-		if((m&(1<<1))==0 && num != 0){
-			help(h, (byte) (m|(1<<1)), num-1, list);
-		}
-		if((m&(1<<2))==0 && num != 0){
-			help(h, (byte) (m|(1<<2)), num-1, list);
-		}
-		if((m&(1<<3))==0 && num != 0){
-			help(h, (byte) (m|(1<<3)), num-1, list);
-		}
-		if((m&(1<<4))==0 && num != 0){
-			help(h, (byte) (m|(1<<4)), num-1, list);
-		}
-		if((m&(1<<5))==0 && num != 0){
-			help(h, (byte) (m|(1<<5)), num-1, list);
-		}
-		if((h&1)==0 && num != 0){
-			help((byte) (h|1), m, num-1, list);
-		}
-		if((h&(1<<1))==0 && num != 0){
-			help((byte) (h|(1<<1)), m, num-1, list);
-		}
-		if((h&(1<<2))==0 && num != 0){
-			help((byte) (h|(1<<2)), m, num-1, list);
-		}
-		if((h&(1<<3))==0 && num != 0){
-			help((byte) (h|(1<<3)), m, num-1, list);
-		}
+		help(h, m|1, num-1, list);
+		help(h, m|(1<<1), num-1, list);
+		help(h, m|(1<<2), num-1, list);
+		help(h, m|(1<<2), num-1, list);
+		help(h, m|(1<<3), num-1, list);
+		help(h, m|(1<<4), num-1, list);
+		help(h, m|(1<<5), num-1, list);
+		return false;
 	}
 	
 	/**
