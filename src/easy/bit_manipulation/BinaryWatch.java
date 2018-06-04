@@ -1,5 +1,6 @@
 package easy.bit_manipulation;
 
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -12,33 +13,27 @@ import java.util.List;
 public class BinaryWatch {
 	/*
 	 * 思路：
-	 * 回溯法
+	 * 方案一：回溯法
+	 * 方案二： 遍历所有值，保存合法值
 	 */
+//	public List<String> readBinaryWatch(int num) {
+//		List<String> ret = new LinkedList<>();
+//		if(num > 10) return ret;                    //边界检查
+//		byte hour = 0, minutes = 0;
+//        return ret;
+//    }
+	
+	//方案二
 	public List<String> readBinaryWatch(int num) {
 		List<String> ret = new LinkedList<>();
-		//边界检查
-		if(num > 10) return ret;
-		byte hour = 0, minutes = 0;
-		help(hour, minutes, num, ret);
-        return ret;
-    }
-	
-	private boolean help(byte h, byte m, int num, List<String> list){
-		//8, 4, 2, 1
-		//32, 16, 8, 4, 2, 1
-		help(h|1, m, num-1, list);
-		help(h|(1<<1), m, num-1, list);
-		help(h|(1<<2), m, num-1, list);
-		help(h|(1<<3), m, num-1, list);
-		
-		help(h, m|1, num-1, list);
-		help(h, m|(1<<1), num-1, list);
-		help(h, m|(1<<2), num-1, list);
-		help(h, m|(1<<2), num-1, list);
-		help(h, m|(1<<3), num-1, list);
-		help(h, m|(1<<4), num-1, list);
-		help(h, m|(1<<5), num-1, list);
-		return false;
+		if(num > 10) return ret;                    //边界检查
+		for(int h = 0; h < 12; h++){
+			for(int m = 0; m < 60; m++){
+				if(Integer.bitCount(h*64 + m)==num)
+					ret.add(""+h+":"+((m<10)?"0"+m:m));
+			}
+		}
+		return ret;
 	}
 	
 	/**
@@ -46,7 +41,7 @@ public class BinaryWatch {
 	 */
 	public static void main(String[] args) {
 		BinaryWatch sol = new BinaryWatch();
-		List<String> ret = sol.readBinaryWatch(2);
+		List<String> ret = sol.readBinaryWatch(1);
 		System.out.println(ret);
 	}
 }
