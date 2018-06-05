@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|87|[Sum of Left Leaves](src/easy/tree/SumOfLeftLeaves.java)|java|Easy|
 |86|[Binary Watch](src/easy/bit_manipulation/BinaryWatch.java)|java|Easy|
 |85|[Nth Digit](src/easy/math/NthDigit.java)|java|Easy|
 |84|[Find the Difference](src/easy/bit_manipulation/FindTheDifference.java)|java|Easy|
