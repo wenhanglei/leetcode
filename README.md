@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|88|[Convert a Number to Hexadecimal](src/easy/bit_manipulation/ConvertNumber2Hexadecimal.java)|java|Easy|
 |87|[Sum of Left Leaves](src/easy/tree/SumOfLeftLeaves.java)|java|Easy|
 |86|[Binary Watch](src/easy/bit_manipulation/BinaryWatch.java)|java|Easy|
 |85|[Nth Digit](src/easy/math/NthDigit.java)|java|Easy|
