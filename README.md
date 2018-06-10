@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|92|[Add Strings](src/easy/math/AddStrings.java)|java|Easy|
 |91|[Third Maximum Number](src/easy/array/ThirdMaximumNumber.java)|java|Easy|
 |90|[Fizz Buzz](src/easy/other/FizzBuzz.java)|java|Easy|
 |89|[Longest Palindrome](src/easy/hashtable/LongestPalindrome.java)|java|Easy|
