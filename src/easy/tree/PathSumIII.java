@@ -1,4 +1,7 @@
 package easy.tree;
+
+import java.util.Queue;
+
 /**
  * Find the number of paths that sum to a given value.
  * @author wenhanglei
@@ -6,23 +9,21 @@ package easy.tree;
 public class PathSumIII {
 	/*
 	 * 思路：
-	 * 任何一种遍历都可以
+	 * 深度优先遍历
 	 */
 	public int pathSum(TreeNode root, int sum) {
-        return helper(root, 0, sum);
+		if(root == null) return 0;
+		return helper(root, sum) + pathSum(root.left, sum)
+				+ pathSum(root.right, sum);
     }
 	
+	
 	/**
-	 * @param node 目标二叉树节点
-	 * @param num 已经过的路径的路径和
-	 * @param sum 目标路径和
-	 * @return 以该节点为根的二叉树的路径数量
+	 * 以node为起点路径时，满足条件的路径数量
 	 */
-	private int helper(TreeNode node, int num, int sum){
-		if(node == null || node.val+num > sum) return 0;
-		if(node.val+num == sum) return 1;
-		return helper(node.left, node.val+num, sum)
-				+helper(node.right, node.val+num, sum);
+	private int helper(TreeNode node, int sum){
+		if(node == null) return 0;
+		return (sum == node.val?1:0)+helper(node.left, sum-node.val) + helper(node.right, sum-node.val);
 	}
 	
 	/**
