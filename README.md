@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|94|[Path Sum III](src/easy/tree/PathSumIII.java)|java|Easy|
 |93|[Number of Segments in a String](src/easy/string/NumberSegmentsString.java)|java|Easy|
 |92|[Add Strings](src/easy/math/AddStrings.java)|java|Easy|
 |91|[Third Maximum Number](src/easy/array/ThirdMaximumNumber.java)|java|Easy|
