@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|95|[Find All Anagrams in a String](src/easy/hashtable/FindAllAnagramsString.java)|jave|Easy|
 |94|[Path Sum III](src/easy/tree/PathSumIII.java)|java|Easy|
 |93|[Number of Segments in a String](src/easy/string/NumberSegmentsString.java)|java|Easy|
 |92|[Add Strings](src/easy/math/AddStrings.java)|java|Easy|
