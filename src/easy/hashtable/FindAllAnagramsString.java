@@ -13,38 +13,50 @@ import java.util.Map;
 public class FindAllAnagramsString {
 	/*
 	 * 思路：
-	 * 遍历
+	 * 滑动窗口
 	 */
 	public List<Integer> findAnagrams(String s, String p) {
+		//结果列表
 		List<Integer> list = new LinkedList<>();
-		//边界检查
-		if(p.isEmpty()) return list;
-		char[] a1 = s.toCharArray();
-		char[] a2 = p.toCharArray();
-		for(int i = 0; i < a1.length; i++){
-			if(hasAnagram(a1, a2, i))
-				list.add(i);
+		//边界条件
+		if(p.length() > s.length()) return list;
+		
+		char[] a1 = p.toCharArray();
+		char[] a2 = s.toCharArray();
+		
+		//统计模式串中的字符个数
+		HashMap<Character, Integer> map = new HashMap<>();
+		for(char ch : a1)
+			map.put(ch, map.containsKey(ch)?map.get(ch)+1:1);
+		
+		//定义滑动窗口的起始边界
+		int begin = 0, end = 0;
+		//字符计数器
+		int counter = map.size();
+		
+		//遍历匹配串
+		while(end < a2.length){
+			char c = a2[end];
+			if(map.containsKey(c)){
+				map.put(c, map.get(c)-1);
+				if(map.get(c) == 0) counter--;
+			}
+			end++;
+			while(counter == 0){
+				char ch = a2[begin];
+				if(map.containsKey(ch)){
+					map.put(ch, map.get(ch)+1);
+					if(map.get(ch) > 0) counter++;
+				}
+				if(end-begin == a1.length){
+					list.add(begin);
+				}
+				begin++;
+			}
 		}
 		return list;
     }
 	
-	private boolean hasAnagram(char[] a1, char[] a2, int i){
-		//边界检查
-		if(a1.length-i < a2.length) return false;
-		Map<Character, Integer> map = new HashMap<>();
-		for(int j = 0; j < a2.length; j++,i++){
-			if(map.containsKey(a1[i]))
-				map.put(a1[i], map.get(a1[i])+1);
-			else map.put(a1[i], 1);
-			if(map.containsKey(a2[j]))
-				map.put(a2[j], map.get(a2[j])-1);
-			else map.put(a2[j], -1);
-		}
-		for(Integer j : map.values()){
-			if(j != 0) return false;
-		}
-		return true;
-	}
 	
 	/**
 	 * 测试函数
