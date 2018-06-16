@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|97|[String Compression](src/easy/string/StringCompression.java)|java|Easy|
 |96|[Arranging Coins](src/easy/binary_search/ArrangingCoins.java)|java|Easy|
 |95|[Find All Anagrams in a String](src/easy/hashtable/FindAllAnagramsString.java)|jave|Easy|
 |94|[Path Sum III](src/easy/tree/PathSumIII.java)|java|Easy|
