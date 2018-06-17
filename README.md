@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|99|[Find All Numbers Disappeared in an Array](src/easy/array/FindAllNumbersDisappearedinArray.java)|java|Easy|
 |98|[Number of Boomerangs](src/easy/hashtable/NumberBoomerangs.java)|java|Easy|
 |97|[String Compression](src/easy/string/StringCompression.java)|java|Easy|
 |96|[Arranging Coins](src/easy/binary_search/ArrangingCoins.java)|java|Easy|
