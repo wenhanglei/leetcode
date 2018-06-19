@@ -1,16 +1,25 @@
 package easy.math;
 /**
- * 
+ * Given a non-empty integer array of size n, find 
+ * the minimum number of moves required to make all 
+ * array elements equal, where a move is incrementing 
+ * n - 1 elements by 1.
  * @author wenhanglei
  */
 public class MinimumMoves2EqualArrayElements {
 	/*
 	 * 思路：
+	 * 单纯的数学题
 	 */
 	public int minMoves(int[] nums) {
-		int max = 0;                    //值最大的下标
 		
-        return 0;
+		int minNum = nums[0], sum = 0;            //数组的最小值和数值和
+		for(int i = 0; i < nums.length; i++){
+			if(nums[i] < minNum) minNum = nums[i];
+			sum += nums[i];
+		}
+		
+        return sum-minNum*nums.length;
     }
 	
 	/**
