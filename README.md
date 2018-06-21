@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|102|[Repeated Substring Pattern](src/easy/string/RepeatedSubstringPattern.java)|java|Easy|
 |101|[Assign Cookies](src/easy/other/AssignCookies.java)|java|Easy|
 |100|[Minimum Moves to Equal Array Elements](src/easy/math/MinimumMoves2EqualArrayElements.java)|java|Easy|
 |99|[Find All Numbers Disappeared in an Array](src/easy/array/FindAllNumbersDisappearedinArray.java)|java|Easy|
