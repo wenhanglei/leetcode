@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|103|[Hamming Distance](src/easy/bit_manipulation/HammingDistance.java)|java|Easy|
 |102|[Repeated Substring Pattern](src/easy/string/RepeatedSubstringPattern.java)|java|Easy|
 |101|[Assign Cookies](src/easy/other/AssignCookies.java)|java|Easy|
 |100|[Minimum Moves to Equal Array Elements](src/easy/math/MinimumMoves2EqualArrayElements.java)|java|Easy|
