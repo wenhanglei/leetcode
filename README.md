@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|106|[Number Complement](src/easy/bit_manipulation/NumberComplement.java)|java|Easy|
 |105|[Heaters](src/easy/binary_search/Heaters.java)|java|Easy|
 |104|[Island Perimeter](src/easy/hashtable/IslandPerimeter.java)|java|Easy|
 |103|[Hamming Distance](src/easy/bit_manipulation/HammingDistance.java)|java|Easy|
