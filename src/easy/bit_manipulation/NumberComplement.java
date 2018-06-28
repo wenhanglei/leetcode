@@ -8,7 +8,7 @@ package easy.bit_manipulation;
 public class NumberComplement {
 	/*
 	 * 思路：
-	 * 巧妙利用反向就行
+	 * 先对数字移位再按位取反
 	 */
 	public int findComplement(int num) {
         //检查边界
