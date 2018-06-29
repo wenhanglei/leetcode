@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|107|[Largest Palindrome Product](src/easy/other/LargestPalindromeProduct.java)|java|Easy|
 |106|[Number Complement](src/easy/bit_manipulation/NumberComplement.java)|java|Easy|
 |105|[Heaters](src/easy/binary_search/Heaters.java)|java|Easy|
 |104|[Island Perimeter](src/easy/hashtable/IslandPerimeter.java)|java|Easy|
