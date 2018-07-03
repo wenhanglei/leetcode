@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|109|[Max Consecutive Ones](src/easy/array/MaxConsecutiveOnes.java)|java|Easy|
 |108|[License Key Formatting](src/easy/other/LicenseKeyFormatting.java)|java|Easy|
 |107|[Largest Palindrome Product](src/easy/other/LargestPalindromeProduct.java)|java|Easy|
 |106|[Number Complement](src/easy/bit_manipulation/NumberComplement.java)|java|Easy|
