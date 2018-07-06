@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|112|[Keyboard Row](src/easy/hashtable/KeyboardRow.java)|java|Easy|
 |111|[Next Greater Element I](src/easy/stack/NextGreaterElementI.java)|java|Easy|
 |110|[Construct the Rectangle](src/easy/other/ConstructRectangle.java)|java|Easy|
 |109|[Max Consecutive Ones](src/easy/array/MaxConsecutiveOnes.java)|java|Easy|
