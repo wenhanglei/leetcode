@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|113|[Find Mode in Binary Search Tree](src/easy/tree/FindModeinBinarySearchTree.java)|java|Easy|
 |112|[Keyboard Row](src/easy/hashtable/KeyboardRow.java)|java|Easy|
 |111|[Next Greater Element I](src/easy/stack/NextGreaterElementI.java)|java|Easy|
 |110|[Construct the Rectangle](src/easy/other/ConstructRectangle.java)|java|Easy|
