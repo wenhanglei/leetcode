@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|115|[Relative Ranks](src/easy/other/RelativeRanks.java)|java|Easy|
 |114|[Base 7](src/easy/other/Base7.java)|java|Easy|
 |113|[Find Mode in Binary Search Tree](src/easy/tree/FindModeinBinarySearchTree.java)|java|Easy|
 |112|[Keyboard Row](src/easy/hashtable/KeyboardRow.java)|java|Easy|
