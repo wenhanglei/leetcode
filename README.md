@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|118|[Longest Uncommon Subsequence I](src/easy/string/LongestUncommonSubsequenceI.java)|jave|Easy|
 |117|[Detect Capital](src/easy/string/DetectCapital.java)|java|Easy|
 |116|[Perfect Number](src/easy/math/PerfectNumber.java)|java|Easy|
 |115|[Relative Ranks](src/easy/other/RelativeRanks.java)|java|Easy|
