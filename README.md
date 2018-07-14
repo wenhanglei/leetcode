@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|120|[K-diff Pairs in an Array](src/easy/two_pointer/KdiffPairsArray.java)|java|Easy|
 |119|[Minimum Absolute Difference in BST](src/easy/tree/MinimumAbsoluteDifference.java)|java|Easy|
 |118|[Longest Uncommon Subsequence I](src/easy/string/LongestUncommonSubsequenceI.java)|jave|Easy|
 |117|[Detect Capital](src/easy/string/DetectCapital.java)|java|Easy|
