@@ -10,7 +10,6 @@ package easy.tree;
 public class ConvertBST2GreaterTree {
 	
 	int sum = 0;
-	int preValue = 0;
 	/*
 	 * 思路：
 	 * 遍历两次，第一次求得所有的数相加的和，第二次依次减去当前节点的值，时间复杂度O(n)
