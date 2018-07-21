@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|127|[Array Partition I](src/easy/array/ArrayPartitionI.java)|java|Easy|
 |126|[Maximum Depth of N-ary Tree](src/easy/tree/MaximumDepthN_aryTree.java)|java|Easy|
 |125|[Reverse Words in a String III](src/easy/string/ReverseWordsStringIII.java)|java|Easy|
 |124|[Student Attendance Record I](src/easy/string/StudentAttendanceRecordI.java)|java|Easy|
