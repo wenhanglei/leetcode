@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|129|[Reshape the Matrix](src/easy/array/ReshapeMatrix.java)|java|Easy|
 |128|[Binary Tree Tilt](src/easy/tree/BinaryTreeTilt.java)|java|Easy|
 |127|[Array Partition I](src/easy/array/ArrayPartitionI.java)|java|Easy|
 |126|[Maximum Depth of N-ary Tree](src/easy/tree/MaximumDepthN_aryTree.java)|java|Easy|
