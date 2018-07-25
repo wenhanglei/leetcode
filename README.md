@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|132|[Shortest Unsorted Continuous Subarray](src/easy/array/ShortestUnsortedContinuousSubarray.java)|java|Easy|
 |131|[Distribute Candies](src/easy/hashtable/DistributeCandies.java)|java|Easy|
 |130|[Subtree of Another Tree](src/easy/tree/SubtreeAnotherTree.java)|java|Easy|
 |129|[Reshape the Matrix](src/easy/array/ReshapeMatrix.java)|java|Easy|
