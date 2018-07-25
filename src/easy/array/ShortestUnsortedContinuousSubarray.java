@@ -10,56 +10,22 @@ package easy.array;
  * @author wenhanglei
  */
 public class ShortestUnsortedContinuousSubarray {
-	int min = Integer.MAX_VALUE;
-	int max = Integer.MIN_VALUE;
-	boolean exist = false;
 	/*
 	 * 思路：
-	 * 对数组进行快速排序取得最大坐标减去最小坐标即为所求结果
+	 * 分别确定上下界即可
 	 */
 	public int findUnsortedSubarray(int[] nums) {
 		//边界检查
-		if(nums == null || nums.length == 0) return 0;
-		quickSort(0, nums.length, nums);
-		if(exist) return max-min+1;
+		if(nums == null || nums.length <= 1) return 0;
+		int begin = 0, end = 0, max = 0, min = nums.length-1;
+		for(int i = 0; i < nums.length; i++){
+			if(nums[i] >= nums[max]) max = i;
+			else end = i;
+			if(nums[nums.length-i-1] <= nums[min]) min = nums.length-i-1;
+			else begin = nums.length-i-1;
+		}
+		if(end > begin) return end-begin+1;
 		else return 0;
-	}
-	
-	private void quickSort(int lo, int hi, int[] nums){
-		if(lo >= hi) return;
-		int sep = partition(lo, hi, nums);
-		if(sep != lo){
-			if(!exist) exist = true;
-			if(sep > max) max = sep;
-			if(lo < min) min = lo;
-		}
-		quickSort(lo, sep, nums);
-		quickSort(sep+1, hi, nums);
-	}
-	
-	/**
-	 * 使用较小的下标对数组划分，返回需要移动到的下标
-	 */
-	private int partition(int lo, int hi, int[] nums){
-		if(lo >= hi-1) return lo;
-		int i = lo, j = hi;
-		while(i < j){
-			while(j > lo && nums[--j] > nums[lo]);
-			while(i < j && nums[++i] < nums[lo]);
-			swap(i, j, nums);
-		}
-		swap(lo, j, nums);
-		return j;
-	}
-	
-	/**
-	 * 交换两个下标的值
-	 */
-	private void swap(int lo, int hi, int[] nums){
-		if(lo >= hi) return;
-		int temp = nums[lo];
-		nums[lo] = nums[hi];
-		nums[hi] = temp;
 	}
 	
 	/**
@@ -67,7 +33,7 @@ public class ShortestUnsortedContinuousSubarray {
 	 */
 	public static void main(String[] args) {
 		ShortestUnsortedContinuousSubarray sol = new ShortestUnsortedContinuousSubarray();
-		int ret = sol.findUnsortedSubarray(new int[]{1, 2, 3, 3, 3});
+		int ret = sol.findUnsortedSubarray(new int[]{2, 6, 4, 8, 10, 9, 15});
 		System.out.println(ret);
 	}
 }
