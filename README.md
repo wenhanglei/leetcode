@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|135|[Longest Harmonious Subsequence](src/easy/hashtable/LongestHarmoniousSubsequence.java)|java|Easy|
 |134|[N-ary Tree Postorder Traversal](src/easy/tree/N_aryTreePostorderTraversal.java)|java|Easy|
 |133|[N-ary Tree Preorder Traversal](src/easy/tree/N_aryTreePreorderTraversal.java)|java|Easy|
 |132|[Shortest Unsorted Continuous Subarray](src/easy/array/ShortestUnsortedContinuousSubarray.java)|java|Easy|
