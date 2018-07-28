@@ -1,7 +1,6 @@
 package easy.hashtable;
 
 import java.util.HashMap;
-import java.util.Map.Entry;
 
 /**
  * We define a harmonious array is an array where the difference between its
@@ -14,7 +13,7 @@ import java.util.Map.Entry;
  */
 public class LongestHarmoniousSubsequence {
 	/*
-	 * 思路：动态规划
+	 * 思路：统计所有相同的值最后求相邻键的值之和
 	 */
 	public int findLHS(int[] nums) {
 		//边界检查
