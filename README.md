@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|138|[Can Place Flowers](src/easy/array/CanPlaceFlowers.java)|java|Easy|
 |137|[Minimum Index Sum of Two Lists](src/easy/hashtable/MinimumIndexSumTwoLists.java)|java|Easy|
 |136|[Range Addition II](src/easy/math/RangeAdditionII.java)|java|Easy|
 |135|[Longest Harmonious Subsequence](src/easy/hashtable/LongestHarmoniousSubsequence.java)|java|Easy|
