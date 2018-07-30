@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|139|[Construct String from Binary Tree](src/easy/tree/ConstructStringfromBinaryTree.java)|java|Easy|
 |138|[Can Place Flowers](src/easy/array/CanPlaceFlowers.java)|java|Easy|
 |137|[Minimum Index Sum of Two Lists](src/easy/hashtable/MinimumIndexSumTwoLists.java)|java|Easy|
 |136|[Range Addition II](src/easy/math/RangeAdditionII.java)|java|Easy|
