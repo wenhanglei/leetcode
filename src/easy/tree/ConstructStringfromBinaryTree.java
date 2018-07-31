@@ -1,6 +1,5 @@
 package easy.tree;
 
-import java.util.concurrent.SynchronousQueue;
 
 /**
  * You need to construct a string consists of parenthesis and integers from a
