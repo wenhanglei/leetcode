@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|141|[Maximum Product of Three Numbers](src/easy/math/MaximumProductThreeNumbers.java)|java|Easy|
 |140|[Merge Two Binary Trees](src/easy/tree/MergeTwoBinaryTrees.java)|java|Easy|
 |139|[Construct String from Binary Tree](src/easy/tree/ConstructStringfromBinaryTree.java)|java|Easy|
 |138|[Can Place Flowers](src/easy/array/CanPlaceFlowers.java)|java|Easy|
