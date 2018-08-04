@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|144|[Maximum Average Subarray I](src/easy/array/MaximumAverageSubarrayI.java)|java|Easy|
 |143|[Average of Levels in Binary Tree](src/easy/tree/AverageLevelsBinaryTree.java)|java|Easy|
 |142|[Sum of Square Numbers](src/easy/math/SumSquareNumbers.java)|java|Easy|
 |141|[Maximum Product of Three Numbers](src/easy/math/MaximumProductThreeNumbers.java)|java|Easy|
