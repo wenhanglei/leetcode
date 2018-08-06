@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|146|[Two Sum IV - Input is a BST](src/easy/tree/TwoSumIV.java)|java|Easy|
 |145|[Set Mismatch](src/easy/hashtable/SetMismatch.java)|java|Easy|
 |144|[Maximum Average Subarray I](src/easy/array/MaximumAverageSubarrayI.java)|java|Easy|
 |143|[Average of Levels in Binary Tree](src/easy/tree/AverageLevelsBinaryTree.java)|java|Easy|
