@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|148|[Image Smoother](src/easy/array/ImageSmoother.java)|java|Easy|
 |147|[Judge Route Circle](src/easy/string/JudgeRouteCircle.java)|java|Easy|
 |146|[Two Sum IV - Input is a BST](src/easy/tree/TwoSumIV.java)|java|Easy|
 |145|[Set Mismatch](src/easy/hashtable/SetMismatch.java)|java|Easy|
