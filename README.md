@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|151|[Second Minimum Node In a Binary Tree](src/easy/tree/SecondMinimumNodeInBinaryTree.java)|java|Easy|
 |150|[Trim a Binary Search Tree](src/easy/tree/TrimABinarySearchTree.java)|java|Easy|
 |149|[Non-decreasing Array](src/easy/array/Non_decreasingArray.java)|java|Easy|
 |148|[Image Smoother](src/easy/array/ImageSmoother.java)|java|Easy|
