@@ -4,7 +4,8 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|157|[Employee Importance]()|java|Easy|
+|158|[Binary Number with Alternating Bits](src/easy/bit_manipulation/BinaryNumberWithAlternatingBits.java)|java|Easy|
+|157|[Employee Importance](src/easy/hashtable/EmployeeImportance.java)|java|Easy|
 |156|[Longest Univalue Path](src/easy/tree/LongestUnivaluePath.java)|java|Easy|
 |155|[Repeated String Match](src/easy/string/RepeatedStringMatch.java)|java|Easy|
 |154|[Baseball Game](src/easy/stack/BaseballGame.java)|java|Easy|

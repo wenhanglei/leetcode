@@ -23,7 +23,7 @@ public class EmployeeImportance {
 	private int sum = 0;
 
 	/*
-	 * 思路：
+	 * 思路：深度优先遍历
 	 */
 	public int getImportance(List<Employee> employees, int id) {
 		help(employees, id);
