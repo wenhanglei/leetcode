@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|157|[Employee Importance]()|java|Easy|
 |156|[Longest Univalue Path](src/easy/tree/LongestUnivaluePath.java)|java|Easy|
 |155|[Repeated String Match](src/easy/string/RepeatedStringMatch.java)|java|Easy|
 |154|[Baseball Game](src/easy/stack/BaseballGame.java)|java|Easy|
