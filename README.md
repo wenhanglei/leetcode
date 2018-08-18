@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|159|[Max Area of Island](src/easy/array/MaxAreaOfIsland.java)|java|Easy|
 |158|[Binary Number with Alternating Bits](src/easy/bit_manipulation/BinaryNumberWithAlternatingBits.java)|java|Easy|
 |157|[Employee Importance](src/easy/hashtable/EmployeeImportance.java)|java|Easy|
 |156|[Longest Univalue Path](src/easy/tree/LongestUnivaluePath.java)|java|Easy|
