@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|161|[Degree of an Array](src/easy/array/DegreeOf1Array.java)|java|Easy|
 |160|[Count Binary Substrings](src/easy/string/CountBinarySubstrings.java)|java|Easy|
 |159|[Max Area of Island](src/easy/array/MaxAreaOfIsland.java)|java|Easy|
 |158|[Binary Number with Alternating Bits](src/easy/bit_manipulation/BinaryNumberWithAlternatingBits.java)|java|Easy|

@@ -1,6 +1,5 @@
 package easy.string;
 
-import java.util.regex.Pattern;
 
 /**
  * Give a string s, count the number of non-empty (contiguous) substrings that
