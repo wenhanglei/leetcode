@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|162|[Search in a Binary Search Tree](src/easy/tree/SearchInBSTree.java)|java|Easy|
 |161|[Degree of an Array](src/easy/array/DegreeOf1Array.java)|java|Easy|
 |160|[Count Binary Substrings](src/easy/string/CountBinarySubstrings.java)|java|Easy|
 |159|[Max Area of Island](src/easy/array/MaxAreaOfIsland.java)|java|Easy|
