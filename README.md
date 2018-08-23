@@ -4,7 +4,8 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|164|[Binary Search]()|java|Easy|
+|165|[Design HashSet](src/easy/hashtable/MyHashSet.java)|java|Easy|
+|164|[Binary Search](src/easy/binary_search/BinarySearch.java)|java|Easy|
 |163|[Kth Largest Element in a Stream](src/easy/other/KthLargestElementInStream.java)|java|Easy|
 |162|[Search in a Binary Search Tree](src/easy/tree/SearchInBSTree.java)|java|Easy|
 |161|[Degree of an Array](src/easy/array/DegreeOf1Array.java)|java|Easy|
