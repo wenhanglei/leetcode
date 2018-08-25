@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|167|[Design Linked List](src/easy/other/MyLinkedList.java)|java|Easy|
 |166|[Design HashMap](src/easy/other/myHashMap.java)|java|Easy|
 |165|[Design HashSet](src/easy/hashtable/MyHashSet.java)|java|Easy|
 |164|[Binary Search](src/easy/binary_search/BinarySearch.java)|java|Easy|
