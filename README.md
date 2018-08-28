@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|170|[Longest Word in Dictionary](src/easy/hashtable/LongestWordInDictionary.java)|java|Easy|
 |169|[1-bit and 2-bit Characters](src/easy/array/Onebitand2bitCharacters.java)|java|Easy|
 |168|[To Lower Case](src/easy/string/ToLowerCase.java)|java|Easy|
 |167|[Design Linked List](src/easy/other/MyLinkedList.java)|java|Easy|
