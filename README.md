@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|174|[Find Smallest Letter Greater Than Target](src/easy/binary_search/FindSmallestLetterGreaterThanTarget.java)|java|Easy|
 |173|[Flood Fill](src/easy/array/FloodFill.java)|java|Easy|
 |172|[Self Dividing Numbers](src/easy/math/SelfDividingNumbers.java)|java|Easy|
 |171|[Find Pivot Index](src/easy/array/FindPivotIndex.java)|java|Easy|
