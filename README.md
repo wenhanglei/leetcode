@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|177|[Prime Number of Set Bits in Binary Representation](src/easy/bit_manipulation/PrimeNumberSetBitsBinaryRepresentation.java)|java|Easy|
 |176|[Largest Number At Least Twice of Others](src/easy/array/LargestNumberAtLeastTwiceOfOthers.java)|java|Easy|
 |175|[Min Cost Climbing Stairs](src/easy/dynamic_programming/MinCostClimbingStairs.java)|java|Easy|
 |174|[Find Smallest Letter Greater Than Target](src/easy/binary_search/FindSmallestLetterGreaterThanTarget.java)|java|Easy|
