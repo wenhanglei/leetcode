@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|179|[Jewels and Stones](src/easy/hashtable/JewelsAndStones.java)|java|Easy|
 |178|[Toeplitz Matrix](src/easy/array/ToeplitzMatrix.java)|java|Easy|
 |177|[Prime Number of Set Bits in Binary Representation](src/easy/bit_manipulation/PrimeNumberSetBitsBinaryRepresentation.java)|java|Easy|
 |176|[Largest Number At Least Twice of Others](src/easy/array/LargestNumberAtLeastTwiceOfOthers.java)|java|Easy|
