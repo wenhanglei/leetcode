@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|180|[Minimum Distance Between BST Nodes](src/easy/tree/MinimumDistanceBetweenBSTNodes.java)|java|Easy|
 |179|[Jewels and Stones](src/easy/hashtable/JewelsAndStones.java)|java|Easy|
 |178|[Toeplitz Matrix](src/easy/array/ToeplitzMatrix.java)|java|Easy|
 |177|[Prime Number of Set Bits in Binary Representation](src/easy/bit_manipulation/PrimeNumberSetBitsBinaryRepresentation.java)|java|Easy|
