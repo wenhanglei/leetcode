@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|181|[Letter Case Permutation](src/easy/bit_manipulation/LetterCasePermutation.java)|java|Easy|
 |180|[Minimum Distance Between BST Nodes](src/easy/tree/MinimumDistanceBetweenBSTNodes.java)|java|Easy|
 |179|[Jewels and Stones](src/easy/hashtable/JewelsAndStones.java)|java|Easy|
 |178|[Toeplitz Matrix](src/easy/array/ToeplitzMatrix.java)|java|Easy|
