@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|185|[Number of Lines To Write String](src/easy/other/NumberOfLinesToWriteString.java)|java|Easy|
 |184|[Unique Morse Code Words](src/easy/string/UniqueMorseCodeWords.java)|java|Easy|
 |183|[Rotate String](src/easy/string/RotateString.java)|java|Easy|
 |182|[Rotated Digits](src/easy/string/RotatedDigits.java)|java|Easy|
