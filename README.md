@@ -4,7 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|186|[Subdomain Visit Count]()|java|Easy|
+|186|[Subdomain Visit Count](src/easy/hashtable/SubdomainVisitCount.java)|java|Easy|
 |185|[Number of Lines To Write String](src/easy/other/NumberOfLinesToWriteString.java)|java|Easy|
 |184|[Unique Morse Code Words](src/easy/string/UniqueMorseCodeWords.java)|java|Easy|
 |183|[Rotate String](src/easy/string/RotateString.java)|java|Easy|
