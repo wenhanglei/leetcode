@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|187|[Largest Triangle Area](src/easy/math/LargestTriangleArea.java)|java|Easy|
 |186|[Subdomain Visit Count](src/easy/hashtable/SubdomainVisitCount.java)|java|Easy|
 |185|[Number of Lines To Write String](src/easy/other/NumberOfLinesToWriteString.java)|java|Easy|
 |184|[Unique Morse Code Words](src/easy/string/UniqueMorseCodeWords.java)|java|Easy|
