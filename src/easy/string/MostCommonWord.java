@@ -30,20 +30,20 @@ public class MostCommonWord {
 			if (!set.contains(word))
 				map.put(word, map.containsKey(word) ? map.get(word) + 1 : 1);
 		}
-		String ret = null;
 		int max = 0;
-		for(Entry<String, Integer> ent : map.entrySet()){
-			if(ent.getValue() > max){
-				max = ent.getValue();
-				ret = ent.getKey();
-			}
+		for(Integer val : map.values()){
+			max = val > max? val: max;
 		}
-		return ret;
+		for(String s : paragraph.split(" ")) {
+			String word = toWord(s);
+			if(map.containsKey(word) && map.get(word) == max) return word;
+		}
+		return null;
 	}
 
 	private String toWord(String rawStr) {
 		String ret = rawStr.toLowerCase();
-		if (Pattern.matches("[!?',;.]$", ret)) {
+		if("!?',;.".contains(rawStr.charAt(rawStr.length()-1)+"")){
 			ret = ret.substring(0, ret.length() - 1);
 		}
 		return ret;
