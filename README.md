@@ -4,7 +4,8 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|189|[Shortest Distance to a Character](src/easy/other/ShortestDistance2Character.java)|Java|Easy|
+|190|[Goat Latin](src/easy/string/GoatLatin.java)|java|Easy|
+|189|[Shortest Distance to a Character](src/easy/other/ShortestDistance2Character.java)|java|Easy|
 |188|[Most Common Word](src/easy/string/MostCommonWord.java)|java|Easy|
 |187|[Largest Triangle Area](src/easy/math/LargestTriangleArea.java)|java|Easy|
 |186|[Subdomain Visit Count](src/easy/hashtable/SubdomainVisitCount.java)|java|Easy|
