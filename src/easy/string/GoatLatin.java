@@ -26,12 +26,12 @@ public class GoatLatin {
 	}
 	
 	private void transformWord(String word, StringBuilder sb, String suffix){
-		if(!"aeiou".contains(word.charAt(0)+"")){
+		if(!"aeiouAEIOU".contains(word.charAt(0)+"")){
 			for(int i = 1; i < word.length(); i++){
 				sb.append(word.charAt(i));
 			}
 			sb.append(word.charAt(0));
-		}
+		}else sb.append(word);
 		sb.append("ma" + suffix + " ");
 	}
 	
