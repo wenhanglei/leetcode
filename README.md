@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|192|[Flipping an Image](src/easy/array/FlippingAnImage.java)|java|Easy|
 |191|[Positions of Large Groups](src/easy/array/PositionsOfLargeGroups.java)|java|Easy|
 |190|[Goat Latin](src/easy/string/GoatLatin.java)|java|Easy|
 |189|[Shortest Distance to a Character](src/easy/other/ShortestDistance2Character.java)|java|Easy|
