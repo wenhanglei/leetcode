@@ -1,5 +1,7 @@
 package easy.array;
 
+import java.util.Arrays;
+
 /**
  * Given a binary matrix A, we want to flip the image horizontally, then invert
  * it, and return the resulting image.
@@ -19,18 +21,26 @@ public class FlippingAnImage {
 	public int[][] flipAndInvertImage(int[][] A) {
 		//先对每个横坐标翻转
 		for(int i = 0; i < A.length; i++){
-			
+			flipAndInvertArray(A[i]);
 		}
-		return null;
+		return A;
 	}
 	
-	private void flipArray(int[] arr){
+	private void flipAndInvertArray(int[] arr){
+		for(int i = 0, j = arr.length-1; i < j; i++, j--){
+			int temp = arr[i];
+			arr[i] = arr[j];
+			arr[j] = temp;
+		}
+		for(int i = 0; i < arr.length; i++){
+			arr[i] = 1-arr[i];
+		}
 	}
 
 	/**
 	 * 测试函数
 	 */
 	public static void main(String[] args) {
-
+		FlippingAnImage sol = new FlippingAnImage();
 	}
 }
