@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|197|[Peak Index in a Mountain Array](src/easy/binary_search/PeakIndexInAMountainArray.java)|java|Easy|
 |196|[Maximize Distance to Closest Person](src/easy/array/MaximizeDistance2ClosestPerson.java)|java|Easy|
 |195|[Backspace String Compare](src/easy/stack/BackspaceStringCompare.java)|java|Easy|
 |194|[Magic Squares In Grid](src/easy/array/MagicSquaresInGrid.java)|java|Easy|
