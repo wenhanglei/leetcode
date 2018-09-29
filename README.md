@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|200|[Transpose Matrix](src/easy/array/TransposeMatrix.java)|java|Easy|
 |199|[Lemonade Change](src/easy/other/LemonadeChange.java)|java|Easy|
 |198|[Buddy Strings](src/easy/string/BuddyStrings.java)|java|Easy|
 |197|[Peak Index in a Mountain Array](src/easy/binary_search/PeakIndexInAMountainArray.java)|java|Easy|
