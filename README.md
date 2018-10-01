@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|202|[Leaf-Similar Trees](src/easy/tree/LeafSimilarTrees.java)|java|Easy|
 |201|[Binary Gap](src/easy/math/BinaryGap.java)|java|Easy|
 |200|[Transpose Matrix](src/easy/array/TransposeMatrix.java)|java|Easy|
 |199|[Lemonade Change](src/easy/other/LemonadeChange.java)|java|Easy|
