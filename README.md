@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|204|[Middle of the Linked List](src/easy/linkedlist/MiddleOfTheLinkedList.java)|java|Easy|
 |203|[Walking Robot Simulation](src/easy/other/WalkingRobotSimulation.java)|java|Easy|
 |202|[Leaf-Similar Trees](src/easy/tree/LeafSimilarTrees.java)|java|Easy|
 |201|[Binary Gap](src/easy/math/BinaryGap.java)|java|Easy|
