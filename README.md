@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|206|[Uncommon Words from Two Sentences](src/easy/hashtable/UncommonWordsfromTwoSentences.java)|java|Easy|
 |205|[Projection Area of 3D Shapes](src/easy/math/ProjectionAreaOf3DShapes.java)|java|Easy|
 |204|[Middle of the Linked List](src/easy/linkedlist/MiddleOfTheLinkedList.java)|java|Easy|
 |203|[Walking Robot Simulation](src/easy/other/WalkingRobotSimulation.java)|java|Easy|
