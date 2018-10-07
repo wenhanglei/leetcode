@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|207|[Fair Candy Swap](src/easy/array/FairCandySwap.java)|java|Easy|
 |206|[Uncommon Words from Two Sentences](src/easy/hashtable/UncommonWordsfromTwoSentences.java)|java|Easy|
 |205|[Projection Area of 3D Shapes](src/easy/math/ProjectionAreaOf3DShapes.java)|java|Easy|
 |204|[Middle of the Linked List](src/easy/linkedlist/MiddleOfTheLinkedList.java)|java|Easy|
