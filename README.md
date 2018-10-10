@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|210|[Monotonic Array](src/easy/array/MonotonicArray.java)|java|Easy|
 |209|[Groups of Special-Equivalent Strings](src/easy/string/GroupsOfSpecialEquivalentStrings.java)|java|Easy|
 |208|[Surface Area of 3D Shapes](src/easy/math/SurfaceAreaOf3DShapes.java)|java|Easy|
 |207|[Fair Candy Swap](src/easy/array/FairCandySwap.java)|java|Easy|
