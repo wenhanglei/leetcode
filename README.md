@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|212|[Sort Array By Parity](src/easy/array/SortArrayByParity.java)|java|Easy|
 |211|[Increasing Order Search Tree](src/easy/tree/IncreasingOrderSearchTree.java)|java|Easy|
 |210|[Monotonic Array](src/easy/array/MonotonicArray.java)|java|Easy|
 |209|[Groups of Special-Equivalent Strings](src/easy/string/GroupsOfSpecialEquivalentStrings.java)|java|Easy|
