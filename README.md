@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|216|[Longest Palindromic Substring](src/medium/string/LongestPalindromicSubstring.java)|java|Medium|
 |215|[Reverse Only Letters](src/easy/other/ReverseOnlyLetters.java)|java|Easy|
 |214|[X of a Kind in a Deck of Cards](src/easy/math/XofKindinDeckOfCards.java)|java|Easy|
 |213|[Smallest Range I](src/easy/other/SmallestRangeI.java)|java|Easy|
