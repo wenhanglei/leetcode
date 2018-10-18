@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|218|[String to Integer](src/easy/math/String2Integer.java)|java|Medium|
 |217|[ZigZag Conversion](src/medium/string/ZigZagConversion.java)|java|Medium|
 |216|[Longest Palindromic Substring](src/medium/string/LongestPalindromicSubstring.java)|java|Medium|
 |215|[Reverse Only Letters](src/easy/other/ReverseOnlyLetters.java)|java|Easy|
