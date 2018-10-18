@@ -1,4 +1,4 @@
-package easy.math;
+package medium.string;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
