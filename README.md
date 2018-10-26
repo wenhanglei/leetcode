@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|226|[Generate Parentheses](src/medium/string/GenerateParentheses.java)|java|Easy|
 |225|[Remove Nth Node From End of List](src/medium/linkedlist/RemoveNthNodeFromEndList.java)|java|Easy|
 |224|[4Sum](src/medium/array/FourSum.java)|java|Easy|
 |223|[Letter Combinations of a Phone Number](src/medium/string/LetterCombinationsofPhoneNumber.java)|java|Medium|
