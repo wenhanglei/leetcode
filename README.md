@@ -4,10 +4,11 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|227|[Swap Nodes in Pairs](src/medium/linkedlist/SwapNodesPairs.java)|java|Easy|
-|226|[Generate Parentheses](src/medium/string/GenerateParentheses.java)|java|Easy|
-|225|[Remove Nth Node From End of List](src/medium/linkedlist/RemoveNthNodeFromEndList.java)|java|Easy|
-|224|[4Sum](src/medium/array/FourSum.java)|java|Easy|
+|228|[Divide Two Integers](src/medium/math/DivideTwoIntegers.java)|java|Medium|
+|227|[Swap Nodes in Pairs](src/medium/linkedlist/SwapNodesPairs.java)|java|Medium|
+|226|[Generate Parentheses](src/medium/string/GenerateParentheses.java)|java|Medium|
+|225|[Remove Nth Node From End of List](src/medium/linkedlist/RemoveNthNodeFromEndList.java)|java|Medium|
+|224|[4Sum](src/medium/array/FourSum.java)|java|Medium|
 |223|[Letter Combinations of a Phone Number](src/medium/string/LetterCombinationsofPhoneNumber.java)|java|Medium|
 |222|[3Sum Closest](src/medium/array/ThreeSumClosest.java)|java|Medium|
 |221|[3Sum](src/medium/array/ThreeSum.java)|java|Medium|
