@@ -30,14 +30,25 @@ public class DivideTwoIntegers {
 		}
 	}
 	
-	private long ldivide(long ldvidend, long ldivisor){
-		return 0;
+	private long ldivide(long ldividend, long ldivisor){
+		//判断被除数是否小于除数作为递归的结束条件
+		if(ldividend < ldivisor) return 0;
+		//不断对除数乘2找到最接近的点
+		long sum = ldivisor;
+		int multiple = 1;
+		while((sum+sum) < ldividend){
+			sum += sum;
+			multiple += multiple;
+		}
+		return multiple + ldivide(ldividend-sum, ldivisor);
 	}
 	
 	/**
 	 * 测试函数
 	 */
 	public static void main(String[] args) {
-		
+		DivideTwoIntegers sol = new DivideTwoIntegers();
+		int ret = sol.divide(7, -3);
+		System.out.println(ret);
 	}
 }
