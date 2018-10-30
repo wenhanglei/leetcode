@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|229|[Next Permutation](src/medium/array/NextPermutation.java)|java|Easy|
 |228|[Divide Two Integers](src/medium/math/DivideTwoIntegers.java)|java|Medium|
 |227|[Swap Nodes in Pairs](src/medium/linkedlist/SwapNodesPairs.java)|java|Medium|
 |226|[Generate Parentheses](src/medium/string/GenerateParentheses.java)|java|Medium|
