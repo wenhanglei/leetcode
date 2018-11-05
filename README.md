@@ -4,7 +4,8 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|232|[Valid Sudoku](src/medium/hashtable/ValidSudoku.java)|java|Easy|
+|233|[Combination Sum](src/medium/array/CombinationSum.java)|java|Medium|
+|232|[Valid Sudoku](src/medium/hashtable/ValidSudoku.java)|java|Medium|
 |231|[Find First and Last Position of Element in Sorted Array](src/medium/array/Find1stLastPositionElementSortedArray.java)|java|Medium|
 |230|[Search in Rotated Sorted Array](src/medium/array/SearchRotatedSortedArray.java)|java|Medium|
 |229|[Next Permutation](src/medium/array/NextPermutation.java)|java|Medium|
