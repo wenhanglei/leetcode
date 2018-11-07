@@ -41,6 +41,7 @@ public class CombinationSum {
 			list.add(new LinkedList<>(stack));
 		}else if(sum < target){
 			for(;lo < candidates.length; lo++){
+				if(sum + candidates[lo] > target) break;
 				traverse(candidates, list, stack, lo, target, sum);
 			}
 		}
