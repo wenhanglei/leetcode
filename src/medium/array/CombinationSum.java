@@ -27,10 +27,23 @@ public class CombinationSum {
 		//边界检查
 		if(candidates == null || candidates.length == 0) return ret;
 		Arrays.sort(candidates);
-		Stack<Integer> stack = new Stack<>();
+		List<Integer> list = new LinkedList<>();
 		for(int i = 0; i < candidates.length; i++)
-			traverse(candidates, ret, stack, i, target, 0);
+			traverse(candidates, ret, list, i, target, 0);
 		return ret;
+	}
+	
+	private void traverse(int[] candidates, List<List<Integer>> list, List<Integer> retSet, int lo, int target, int sum){
+		retSet.add(candidates[lo]);
+		sum += candidates[lo];
+		if(sum == target) list.add(new LinkedList<>(retSet));
+		else if(sum < target){
+			for(;lo < candidates.length; lo++){
+				if(sum + candidates[lo] > target) break;
+				traverse(candidates, list, retSet, lo, target, sum);
+			}
+		}
+		retSet.remove(retSet.size()-1);
 	}
 	
 	private void traverse(int[] candidates, List<List<Integer>> list, Stack<Integer> stack, int lo, int target, int sum){
