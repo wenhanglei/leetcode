@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|235|[Multiply Strings](src/medium/string/MultiplyStrings.java)|java|Medium|
 |234|[Combination Sum II](src/medium/array/CombinationSumII.java)|java|Medium|
 |233|[Combination Sum](src/medium/array/CombinationSum.java)|java|Medium|
 |232|[Valid Sudoku](src/medium/hashtable/ValidSudoku.java)|java|Medium|
