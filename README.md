@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|240|[Pow(x, n)](src/medium/math/Powxn.java)|java|Medium|
 |239|[Group Anagrams](src/medium/string/GroupAnagrams.java)|java|Medium|
 |238|[Rotate Image](src/medium/array/RotateImage.java)|java|Medium|
 |237|[Permutations II](src/medium/array/PermutationsII.java)|java|Medium|
