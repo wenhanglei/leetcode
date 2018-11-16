@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|242|[Jump Game](src/medium/array/JumpGame.java)|java|Medium|
 |241|[Spiral Matrix](src/medium/array/SpiralMatrix.java)|java|Medium|
 |240|[Pow(x, n)](src/medium/math/Powxn.java)|java|Medium|
 |239|[Group Anagrams](src/medium/string/GroupAnagrams.java)|java|Medium|
