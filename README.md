@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|245|[Permutation Sequence](src/medium/math/PermutationSequence.java)|java|Medium|
 |244|[Spiral Matrix II](src/medium/array/SpiralMatrixII.java)|java|Medium|
 |243|[Merge Intervals](src/medium/array/MergeIntervals.java)|java|Medium|
 |242|[Jump Game](src/medium/array/JumpGame.java)|java|Medium|
