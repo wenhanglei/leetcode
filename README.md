@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|246|[Rotate List](src/medium/linkedlist/RotateList.java)|java|Medium|
 |245|[Permutation Sequence](src/medium/math/PermutationSequence.java)|java|Medium|
 |244|[Spiral Matrix II](src/medium/array/SpiralMatrixII.java)|java|Medium|
 |243|[Merge Intervals](src/medium/array/MergeIntervals.java)|java|Medium|
