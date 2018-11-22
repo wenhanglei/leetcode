@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|249|[Minimum Path Sum](src/medium/array/MinimumPathSum.java)|java|Medium|
 |248|[Unique Paths II](src/medium/array/UniquePathsII.java)|java|Medium|
 |247|[Unique Paths](src/medium/array/UniquePaths.java)|java|Medium|
 |246|[Rotate List](src/medium/linkedlist/RotateList.java)|java|Medium|
