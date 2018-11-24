@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|251|[Set Matrix Zeroes](src/medium/array/SetMatrixZeroes.java)|java|Medium|
 |250|[Simplify Path](src/medium/string/SimplifyPath.java)|java|Medium|
 |249|[Minimum Path Sum](src/medium/array/MinimumPathSum.java)|java|Medium|
 |248|[Unique Paths II](src/medium/array/UniquePathsII.java)|java|Medium|
