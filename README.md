@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|253|[Sort Colors](src/medium/array/SortColors.java)|java|Medium|
 |252|[Search a 2D Matrix](src/medium/array/Search2DMatrix.java)|java|Medium|
 |251|[Set Matrix Zeroes](src/medium/array/SetMatrixZeroes.java)|java|Medium|
 |250|[Simplify Path](src/medium/string/SimplifyPath.java)|java|Medium|
