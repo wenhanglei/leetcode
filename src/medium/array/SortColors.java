@@ -25,12 +25,11 @@ public class SortColors {
 		int[] count = new int[4];
 		for(int i = 0; i < nums.length; i++) count[nums[i]+1]++;
 		for(int i = 1; i < count.length; i++) count[i] += count[i-1];
-		int[] aux = new int[nums.length];
 		for(int i = 0; i < nums.length; i++){
-			aux[count[nums[i]]] = nums[i];
-			count[nums[i]]++;
+			if(i < count[1]) nums[i] = 0;
+			else if(i < count[2]) nums[i] = 1;
+			else if(i < count[3]) nums[i] = 2;
 		}
-		for(int i = 0; i < nums.length; i++) nums[i] = aux[i];
 	}
 	
 	/**
