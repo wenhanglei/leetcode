@@ -1,9 +1,7 @@
 package medium.math;
 
-import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Set;
 
 /**
  * Given two integers n and k, return all possible combinations of k numbers out
@@ -19,19 +17,19 @@ public class Combinations {
 		//边界检查
 		List<List<Integer>> ret = new LinkedList<>();
 		if(k == 0) return ret;
-		Set<Integer> set = new HashSet<>();
-		for(int i = 1; i <= n; i++) help(n, k-1, i, ret, set);
+		LinkedList<Integer> list = new LinkedList<>();
+		for(int i = 1; i <= n; i++) help(n, k-1, i, ret, list);
 		return ret;
 	}
 	
-	private void help(int n, int k, int curr, List<List<Integer>> ret, Set<Integer> set){
-		set.add(curr);
-		if(k <= 0) ret.add(new LinkedList<>(set));
+	private void help(int n, int k, int curr, List<List<Integer>> ret, List<Integer> list){
+		list.add(curr);
+		if(k <= 0) ret.add(new LinkedList<>(list));
 		else{
 			for(int i = curr+1; i <= n; i++)
-				help(n, k-1, i, ret, set);
+				help(n, k-1, i, ret, list);
 		}
-		set.remove(curr);
+		list.remove(list.size()-1);
 	}
 	
 	/**

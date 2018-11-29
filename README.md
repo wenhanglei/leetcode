@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|256|[Word Search](src/medium/array/WordSearch.java)|java|Medium|
 |255|[Subsets](src/medium/array/Subsets.java)|java|Medium|
 |254|[Combinations](src/medium/math/Combinations.java)|java|Medium|
 |253|[Sort Colors](src/medium/array/SortColors.java)|java|Medium|
