@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|258|[Search in Rotated Sorted Array II](src/medium/array/SearchInRotatedSortedArrayII.java)|java|Medium|
 |257|[Remove Duplicates from Sorted Array II](src/medium/array/RemoveDuplicatesfromSortedArrayII.java)|java|Medium|
 |256|[Word Search](src/medium/array/WordSearch.java)|java|Medium|
 |255|[Subsets](src/medium/array/Subsets.java)|java|Medium|
