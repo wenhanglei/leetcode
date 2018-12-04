@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|261|[Gray Code](src/medium/other/GrayCode.java)|java|Medium|
 |260|[Partition List](src/medium/linkedlist/PartitionList.java)|java|Medium|
 |259|[Remove Duplicates from Sorted List II](src/medium/linkedlist/RemoveDuplicatesFromSortedListII.java)|java|Medium|
 |258|[Search in Rotated Sorted Array II](src/medium/array/SearchInRotatedSortedArrayII.java)|java|Medium|
