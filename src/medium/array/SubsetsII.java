@@ -1,8 +1,6 @@
 package medium.array;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -22,22 +20,43 @@ public class SubsetsII {
 		//边界检查
 		if(nums == null || nums.length == 0) return ret;
 		List<Integer> list = new LinkedList<>();
-		HashSet<String> set = new HashSet<>();
 		Arrays.sort(nums);
-		help(ret, list, set, nums, -1);
+		help(ret, list, nums, 0);
 		ret.add(list);
 		return ret;
 	}
-	
-	private void help(List<List<Integer>> ret, List<Integer> list, HashSet<String> set, int[] nums, int i){
-		for(i++;i < nums.length; i++){
+	private void help(List<List<Integer>> ret, List<Integer> list, int[] nums, int i){
+		while(i < nums.length){
 			list.add(nums[i]);
-			if(set.add(list.toString()))
-				ret.add(new ArrayList<>(list));
-			help(ret, list, set, nums, i);
+			ret.add(new LinkedList<>(list));
+			help(ret, list, nums, i+1);
+			while(i < nums.length-1 && nums[i+1] == nums[i])i++;
+			i++;
 			list.remove(list.size()-1);
 		}
 	}
+	
+//	public List<List<Integer>> subsetsWithDup(int[] nums) {
+//	List<List<Integer>> ret = new LinkedList<>();
+//	//边界检查
+//	if(nums == null || nums.length == 0) return ret;
+//	List<Integer> list = new LinkedList<>();
+//	HashSet<String> set = new HashSet<>();
+//	Arrays.sort(nums);
+//	help(ret, list, set, nums, -1);
+//	ret.add(list);
+//	return ret;
+//}
+	
+//	private void help(List<List<Integer>> ret, List<Integer> list, HashSet<String> set, int[] nums, int i){
+//		for(i++;i < nums.length; i++){
+//			list.add(nums[i]);
+//			if(set.add(list.toString()))
+//				ret.add(new ArrayList<>(list));
+//			help(ret, list, set, nums, i);
+//			list.remove(list.size()-1);
+//		}
+//	}
 	
 	/**
 	 * 测试函数
