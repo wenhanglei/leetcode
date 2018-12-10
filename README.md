@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|266|[Binary Tree Inorder Traversal](src/medium/tree/BinaryTreeInorderTraversal.java)|java|Medium|
 |265|[Restore IP Addresses](src/medium/string/RestoreIPAddresses.java)|java|Medium|
 |264|[Reverse Linked List II](src/medium/linkedlist/ReverseLinkedListII.java)|java|Medium|
 |263|[Decode Ways](src/medium/string/DecodeWays.java)|java|Medium|
