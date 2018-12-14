@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|270|[Binary Tree Level Order Traversal](src/medium/tree/BinaryTreeLevelOrderTraversal.java)|java|Medium|
 |269|[Validate Binary Search Tree](src/medium/tree/ValidateBinarySearchTree.java)|java|Medium|
 |268|[Unique Binary Search Trees](src/medium/tree/UniqueBinarySearchTrees.java)|java|Medium|
 |267|[Unique Binary Search Trees II](src/medium/tree/UniqueBinarySearchTreesII.java)|java|Medium|
