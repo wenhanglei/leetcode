@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|273|[Construct Binary Tree from Inorder and Postorder Traversal](src/medium/tree/ConstructBinaryTreefromInorderPostorderTraversal.java)|java|Medium|
 |272|[Construct Binary Tree from Preorder and Inorder Traversal](src/medium/tree/ConstructBinaryTreefromPreorderInorderTraversal.java)|java|Medium|
 |271|[Binary Tree Zigzag Level Order Traversal](src/medium/tree/BinaryTreeZigzagLevelOrderTraversal.java)|java|Medium|
 |270|[Binary Tree Level Order Traversal](src/medium/tree/BinaryTreeLevelOrderTraversal.java)|java|Medium|
