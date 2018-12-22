@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|276|[Flatten Binary Tree to Linked List](src/medium/tree/FlattenBinaryTree2LinkedList.java)|java|Medium|
 |275|[Path Sum II](src/medium/tree/PathSumII.java)|java|Medium|
 |274|[Convert Sorted List to Binary Search Tree](src/medium/tree/ConvertSortedList2BinarySearchTree.java)|java|Medium|
 |273|[Construct Binary Tree from Inorder and Postorder Traversal](src/medium/tree/ConstructBinaryTreefromInorderPostorderTraversal.java)|java|Medium|
