@@ -27,6 +27,19 @@ public class TreeUtils {
 		return node;
 	}
 	
+	public static TreeLinkNode getLinkTree(int[] arr){
+		if(arr == null || arr.length == 0) return null;
+		return getLinkTree(arr, 0);
+	}
+	
+	private static TreeLinkNode getLinkTree(int[] arr, int i){
+		if(i >= arr.length || arr[i] == '#') return null;
+		TreeLinkNode node = new TreeLinkNode(arr[i]);
+		node.left = getLinkTree(arr, 2*i+1);
+		node.right = getLinkTree(arr, 2*i+2);
+		return node;
+	}
+	
 	/**
 	 * 根据传递的二叉树的根节点生成对应的数组返回
 	 */
