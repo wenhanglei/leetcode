@@ -10,11 +10,51 @@ package medium.tree;
 public class PopulatingNextRightPointersEachNodeII {
 	/*
 	 * 思路:使用递归实现即可
+	 * 方案二：使用迭代实现逐层遍历
 	 */
 	public void connect(TreeLinkNode root) {
-		if(root == null) return;
-		helper(root, null);
+		
+		TreeLinkNode head = null;         //下一层链表的头结点
+		TreeLinkNode tail = null;         //下一层链表的当前尾节点
+		TreeLinkNode curr = root;         //当前需要处理的节点
+		
+		while(curr != null){
+			
+			while(curr != null){
+				if(curr.left != null){
+					if(head == null){
+						head = curr.left;           //初始化下一层节点的头结点
+						tail = head;
+					}else{
+						tail.next = curr.left;
+						tail = curr.left;
+					}
+				}
+				
+				if(curr.right != null){
+					if(head == null){
+						head = curr.right;
+						tail = head;
+					}else{
+						tail.next = curr.right;
+						tail = curr.right;
+					}
+				}
+				
+				curr = curr.next;
+			}
+			
+			curr = head;
+			head = null;
+			tail = null;
+			
+		}
+		
 	}
+//	public void connect(TreeLinkNode root) {
+//		if(root == null) return;
+//		helper(root, null);
+//	}
 	
 	private void helper(TreeLinkNode node, TreeLinkNode head){
 		if(node == null) return;
