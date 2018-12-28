@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|280|[Word Ladder](src/medium/other/WordLadder.java)|java|Medium|
 |279|[Triangle](src/medium/array/Triangle.java)|java|Medium|
 |278|[Populating Next Right Pointers in Each Node II](src/medium/tree/PopulatingNextRightPointersEachNodeII.java)|java|Medium|
 |277|[Populating Next Right Pointers in Each Node](src/medium/tree/PopulatingNextRightPointersEachNode.java)|java|Medium|
