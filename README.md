@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|281|[Sum Root to Leaf Numbers](src/medium/tree/SumRoot2LeafNumbers.java)|java|Medium|
 |280|[Word Ladder](src/medium/other/WordLadder.java)|java|Medium|
 |279|[Triangle](src/medium/array/Triangle.java)|java|Medium|
 |278|[Populating Next Right Pointers in Each Node II](src/medium/tree/PopulatingNextRightPointersEachNodeII.java)|java|Medium|
