@@ -9,9 +9,13 @@ package medium.other;
  */
 public class SurroundedRegions {
 	/*
-	 * 思路：
+	 * 思路：使用二维数组保存
 	 */
 	public void solve(char[][] board) {
+		
+	}
+	
+	private void helper(char[][] board, int x, int y){
 		
 	}
 	
