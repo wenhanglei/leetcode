@@ -15,10 +15,6 @@ public class SurroundedRegions {
 		
 	}
 	
-	private void helper(char[][] board, int x, int y){
-		
-	}
-	
 	/**
 	 * 测试函数
 	 */
