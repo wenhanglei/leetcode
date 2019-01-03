@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|283|[Palindrome Partitioning](src/medium/other/PalindromePartitioning.java)|java|Medium|
 |282|[Surrounded Regions](src/medium/other/SurroundedRegions.java)|java|Medium|
 |281|[Sum Root to Leaf Numbers](src/medium/tree/SumRoot2LeafNumbers.java)|java|Medium|
 |280|[Word Ladder](src/medium/other/WordLadder.java)|java|Medium|
