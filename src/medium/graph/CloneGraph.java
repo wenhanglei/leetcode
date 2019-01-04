@@ -1,6 +1,6 @@
 package medium.graph;
 
-import java.util.HashSet;
+import java.util.HashMap;
 
 /**
  * Given the head of a graph, return a deep copy (clone) of the graph. Each node
@@ -16,19 +16,21 @@ public class CloneGraph {
 	 */
 	public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
 		if(node == null) return null;
-		HashSet<UndirectedGraphNode> set = new HashSet<>();
+		HashMap<UndirectedGraphNode, UndirectedGraphNode> map = new HashMap<>();
 		UndirectedGraphNode ret = new UndirectedGraphNode(node.label);
-		dfs(node, ret, set);
+		dfs(node, ret, map);
 		return ret;
 	}
 	
-	private void dfs(UndirectedGraphNode oN, UndirectedGraphNode nN, HashSet<UndirectedGraphNode> set){
-		set.add(oN);
+	private void dfs(UndirectedGraphNode oN, UndirectedGraphNode nN, HashMap<UndirectedGraphNode, UndirectedGraphNode> map){
+		map.put(oN, nN);
 		for(UndirectedGraphNode n : oN.neighbors){
-			UndirectedGraphNode next = (n== oN)?nN:new UndirectedGraphNode(n.label);
-			nN.neighbors.add(next);
-			if(!set.contains(n)){
-				dfs(n, next, set);
+			if(!map.containsKey(n)){
+				UndirectedGraphNode next = new UndirectedGraphNode(n.label);
+				nN.neighbors.add(next);
+				dfs(n, next, map);
+			}else{
+				nN.neighbors.add(map.get(n));
 			}
 		}
 	}
