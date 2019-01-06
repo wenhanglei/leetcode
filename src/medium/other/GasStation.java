@@ -9,30 +9,32 @@ package medium.other;
  */
 public class GasStation {
 	/*
-	 * 思路：
+	 * 思路：使用最笨的办法，遍历检查
 	 */
 	public int canCompleteCircuit(int[] gas, int[] cost) {
-		int r = 0, c = 0, idx = -1;
 		for(int i = 0; i < gas.length; i++){
-			if(gas[i]-cost[i] >= 0) {
-				if(gas[i]-cost[i] > r) {
-					r = gas[i]-cost[i];
-					idx = i;
-				}
-			}else{
-				if(cost[i]-gas[i] > r) {
-					c = cost[i]-gas[i];
-					idx = -1;
-				}
+			if(gas[i]-cost[i] >= 0){
+				if(isValid((i+1)%gas.length, gas[i]-cost[i], i, gas, cost)) return i;
 			}
 		}
-		return idx;
+		return -1;
+	}
+	
+	public boolean isValid(int i, int rem, int start, int[] gas, int[] cost){
+		if(i == start) return true;
+		rem = gas[i]+rem-cost[i];
+		if(rem < 0) return false;
+		else return isValid((i+1)%gas.length, rem, start, gas, cost);
 	}
 	
 	/**
 	 * 测试函数
 	 */
 	public static void main(String[] args) {
-		
+		int[] gas = {1, 2, 3, 4, 5};
+		int[] cost = {3, 4, 5, 1, 2};
+		GasStation sol = new GasStation();
+		int ret = sol.canCompleteCircuit(gas, cost);
+		System.out.println(ret);
 	}
 }
