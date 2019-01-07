@@ -10,15 +10,38 @@ package medium.other;
 public class GasStation {
 	/*
 	 * 思路：使用最笨的办法，遍历检查
+	 * 贪心算法不仅可以求出下一步最优，而且可以使用上一步不符合条件排除下一步不符合条件
+	 * 使用两次遍历求解
 	 */
 	public int canCompleteCircuit(int[] gas, int[] cost) {
+		//第一次遍历如果总的气量小于需要消耗的气量则不存在解
+		int total = 0;
 		for(int i = 0; i < gas.length; i++){
-			if(gas[i]-cost[i] >= 0){
-				if(isValid((i+1)%gas.length, gas[i]-cost[i], i, gas, cost)) return i;
-			}
+			total += gas[i] - cost[i];
 		}
-		return -1;
+		if(total < 0) return -1;
+		//第二次遍历检查找到一个合法起点
+		int start = 0;
+		int accu = 0;
+		for(int i = 0; i < gas.length; i++){
+			int curr = gas[i]-cost[i];
+			if(accu+curr < 0) {
+				start = i+1;
+				accu = 0;
+			}else accu += curr;
+		}
+		return start;
 	}
+	
+	
+//	public int canCompleteCircuit(int[] gas, int[] cost) {
+//		for(int i = 0; i < gas.length; i++){
+//			if(gas[i]-cost[i] >= 0){
+//				if(isValid((i+1)%gas.length, gas[i]-cost[i], i, gas, cost)) return i;
+//			}
+//		}
+//		return -1;
+//	}
 	
 	public boolean isValid(int i, int rem, int start, int[] gas, int[] cost){
 		if(i == start) return true;
