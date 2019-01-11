@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|288|[Word Break](src/medium/other/WordBreak.java)|java|Medium|
 |287|[Copy List with Random Pointer](src/medium/linkedlist/CopyListwithRandomPointer.java)|java|Medium|
 |286|[Single Number II](src/medium/bit_manipulation/SingleNumberII.java)|java|Medium|
 |285|[Gas Station](src/medium/other/GasStation.java)|java|Medium|
