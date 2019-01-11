@@ -1,6 +1,7 @@
 package medium.other;
 
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
 
 /**
@@ -12,17 +13,23 @@ import java.util.List;
  */
 public class WordBreak {
 	/*
-	 * 思路：遍历检查即可
+	 * 思路：使用动态规划
 	 */
 	public boolean wordBreak(String s, List<String> wordDict) {
-		if(s.isEmpty()) return true;
-		for(String str : wordDict){
-			if(s.startsWith(str)){
-				if(wordBreak(s.substring(str.length()), wordDict))
-					return true;
+		//先将字典保存到set中方便后面检查
+		HashSet<String> set = new HashSet<>(wordDict);
+		//创建可达性数组保存每个下标的可达性
+		boolean[] marked = new boolean[s.length()+1];
+		marked[0] = true;
+		for(int i = 1; i <= s.length(); i++){
+			for(int j = 0; j < i; j++){
+				if(marked[j] && set.contains(s.substring(j, i))){
+					marked[i] = true;
+					break;
+				}
 			}
 		}
-		return false;
+		return marked[s.length()];
 	}
 	
 	/**
