@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|293|[Sort List](src/medium/linkedlist/SortList.java)|java|Medium|
 |292|[Insertion Sort List](src/medium/linkedlist/InsertionSortList.java)|java|Medium|
 |291|[Binary Tree Preorder Traversal](src/medium/tree/BinaryTreePreorderTraversal.java)|java|Medium|
 |290|[Reorder List](src/medium/linkedlist/ReorderList.java)|java|Medium|
