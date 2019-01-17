@@ -12,53 +12,60 @@ public class SortList {
 	public ListNode sortList(ListNode head) {
 		//边界检查
 		if(head == null || head.next == null) return head;
-		//求出链表的长度
-		ListNode curr = head;
-		int len = 0;
-		while(curr != null){
-			len++;
-			curr = curr.next;
-		}
 		ListNode helper = new ListNode(-1);
 		helper.next = head;
-		curr = helper;
-		ListNode left, right;
+		
 		int count = 1;
+		ListNode first, second, next, curr, temp;
 		while(true){
-			left = helper.next;
-			right = left;
-			for(int i = 0; i < count; i++) right = right.next;
+			curr = helper;
+			next = curr.next;
 			while(true){
-				ListNode nextLeft = right.next;
-				left.next = null;
-				right.next = null;
-				while(left != null && right != null){
-					if(left.val <= right.val){
-						curr.next = left;
-						left = left.next;
+				if(next == null) break;
+				first = next;
+				second = first;
+				for(int i = 0; i < count; i++){
+					if(second == null) {
+						if(first == helper.next) return helper.next;
+						else break;
+					}
+					if(i == count-1) {
+						temp = second.next;
+						second.next = null;
+						second = temp;
+					}else second = second.next;
+				}
+				next = second;
+				for(int i = 0; i < count; i++){
+					if(next == null) break;
+					if(i == count-1){
+						temp = next.next;
+						next.next = null;
+						next = temp;
+					}else next = next.next;
+				}
+				while(first != null && second != null){
+					if(first.val <= second.val){
+						curr.next = first;
+						first = first.next;
 					}else {
-						curr.next = right;
-						right = right.next;
+						curr.next = second;
+						second = second.next;
 					}
 					curr = curr.next;
 				}
-				if(left == null){
-					curr.next = right;
-					while(right.next != null) right = right.next;
-					curr = right;
-				}else if(right == null){
-					curr.next = left;
-					while(left.next != null) left = left.next;
-					curr = left;
+				if(first == null){
+					curr.next = second;
+					while(second.next != null) second = second.next;
+					curr = second;
+				}else if(second == null){
+					curr.next = first;
+					while(first.next != null) first = first.next;
+					curr = first;
 				}
-				if(nextLeft == null) break;
-				left = nextLeft;
-				right = left.next;
 			}
 			count <<= 1;
-			if(count >= len) break;
 		}
-		return helper.next;
 	}
 	
 	/**
