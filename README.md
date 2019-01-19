@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|294|[Evaluate Reverse Polish Notation](src/medium/other/EvaluateReversePolishNotation.java)|java|Medium|
 |293|[Sort List](src/medium/linkedlist/SortList.java)|java|Medium|
 |292|[Insertion Sort List](src/medium/linkedlist/InsertionSortList.java)|java|Medium|
 |291|[Binary Tree Preorder Traversal](src/medium/tree/BinaryTreePreorderTraversal.java)|java|Medium|
