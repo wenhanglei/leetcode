@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|296|[Maximum Product Subarray](src/medium/array/MaximumProductSubarray.java)|java|Medium|
 |295|[Reverse Words in a String](src/medium/string/ReverseWordsinString.java)|java|Medium|
 |294|[Evaluate Reverse Polish Notation](src/medium/other/EvaluateReversePolishNotation.java)|java|Medium|
 |293|[Sort List](src/medium/linkedlist/SortList.java)|java|Medium|
