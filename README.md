@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|298|[Find Peak Element](src/medium/array/FindPeakElement.java)|java|Medium|
 |297|[Find Minimum in Rotated Sorted Array](src/medium/array/FindMinimumRotatedSortedArray.java)|Java|Medium|
 |296|[Maximum Product Subarray](src/medium/array/MaximumProductSubarray.java)|java|Medium|
 |295|[Reverse Words in a String](src/medium/string/ReverseWordsinString.java)|java|Medium|
