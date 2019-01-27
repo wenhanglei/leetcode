@@ -40,7 +40,7 @@ public class CompareVersionNumbers {
 		return 0;
 	}
 	
-	private int[] getNumVersion(String version){
+	private void getNumVersion(int[] numVersion, String version){
 		String[] strs = version.split(".");
 		int[] numVersion = new int[strs.length];
 		for(int i = 0; i < strs.length; i++){
@@ -53,6 +53,8 @@ public class CompareVersionNumbers {
 	 * 测试函数
 	 */
 	public static void main(String[] args) {
-		
+		CompareVersionNumbers sol = new CompareVersionNumbers();
+		int ret = sol.compareVersion("0.1", "1.1");
+		System.out.println(ret);
 	}
 }
