@@ -27,21 +27,21 @@ public class CompareVersionNumbers {
 				if(i < nVersion2.length){
 					if(nVersion1[i] < nVersion2[i]) return -1;
 					else if(nVersion1[i] > nVersion2[i]) return 1;
-				}else if(nVersion1[i] != 0 ) return 0;
+				}else if(nVersion1[i] != 0 ) return 1;
 			}
 		}else {
 			for(int i = 0; i < nVersion2.length; i++){
 				if(i < nVersion1.length){
 					if(nVersion1[i] < nVersion2[i]) return -1;
 					else if(nVersion1[i] > nVersion2[i]) return 1;
-				}else if(nVersion2[i] != 0) return 0;
+				}else if(nVersion2[i] != 0) return -1;
 			}
 		}
 		return 0;
 	}
 	
-	private void getNumVersion(int[] numVersion, String version){
-		String[] strs = version.split(".");
+	private int[] getNumVersion(String version){
+		String[] strs = version.split("\\.");
 		int[] numVersion = new int[strs.length];
 		for(int i = 0; i < strs.length; i++){
 			numVersion[i] = Integer.parseInt(strs[i]);
@@ -54,7 +54,7 @@ public class CompareVersionNumbers {
 	 */
 	public static void main(String[] args) {
 		CompareVersionNumbers sol = new CompareVersionNumbers();
-		int ret = sol.compareVersion("0.1", "1.1");
+		int ret = sol.compareVersion("1", "1.1");
 		System.out.println(ret);
 	}
 }
