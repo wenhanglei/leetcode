@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|300|[Fraction to Recurring Decimal](src/medium/other/Fraction2RecurringDecimal.java)|java|Medium|
 |299|[Compare Version Numbers](src/medium/string/CompareVersionNumbers.java)|java|Medium|
 |298|[Find Peak Element](src/medium/array/FindPeakElement.java)|java|Medium|
 |297|[Find Minimum in Rotated Sorted Array](src/medium/array/FindMinimumRotatedSortedArray.java)|Java|Medium|
