@@ -17,37 +17,39 @@ public class Fraction2RecurringDecimal {
 		StringBuilder sb = new StringBuilder();
 		if(numerator == 0) return "0";
 		int sign = 1;
-		if(numerator < 0) {
-			numerator = -numerator;
+		Long n = (long) numerator;
+		Long d = (long) denominator;
+		if(n < 0) {
+			n = -n;
 			sign *= -1;
 		}
-		if(denominator < 0){
-			denominator = -denominator;
+		if(d < 0){
+			d = -d;
 			sign *= -1;
 		}
 		if(sign == -1) sb.append('-');
-		if(numerator == denominator) return "1";
-		else if(numerator > denominator){
-			int pre = numerator/denominator;
-			numerator = numerator%denominator;
-			if(numerator == 0) return Integer.toString(pre);
-			sb.append(Integer.toString(pre)+".");
+		if(n == d) return "1";
+		else if(n > d){
+			long pre = n/d;
+			n = n%d;
+			if(n == 0) return Long.toString(pre*sign);
+			sb.append(Long.toString(pre)+".");
 		}else sb.append("0.");
-		HashMap<Integer, Integer> map = new HashMap<>();
+		HashMap<Long, Integer> map = new HashMap<>();
 		int count = sb.length();
-		map.put(numerator, count++);
-		numerator *= 10;
-		sb.append(Integer.toString(numerator/denominator));
-		numerator = numerator%denominator;
-		if(numerator == 0) return sb.toString();
-		while(!map.containsKey(numerator)){
-			map.put(numerator, count++);
-			numerator *= 10;
-			sb.append(Integer.toString(numerator/denominator));
-			numerator = numerator%denominator;
-			if(numerator == 0) return sb.toString();
+		map.put((long)n, count++);
+		n = n * 10;
+		sb.append(Long.toString(n/d));
+		n = n%d;
+		if(n == 0) return sb.toString();
+		while(!map.containsKey(n)){
+			map.put(n, count++);
+			n *= 10;
+			sb.append(Long.toString(n/d));
+			n = n%d;
+			if(n == 0) return sb.toString();
 		}
-		sb.insert((int)map.get(numerator), '(');
+		sb.insert((int)map.get(n), '(');
 		sb.append(')');
 		return sb.toString();
 	}
@@ -57,7 +59,7 @@ public class Fraction2RecurringDecimal {
 	 */
 	public static void main(String[] args) {
 		Fraction2RecurringDecimal sol = new Fraction2RecurringDecimal();
-		String ret = sol.fractionToDecimal(-1, -2147483648);
+		String ret = sol.fractionToDecimal(-2147483648, 1);
 		System.out.println(ret);
 	}
 }
