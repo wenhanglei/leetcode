@@ -1,6 +1,6 @@
 package medium.tree;
 
-import java.util.LinkedList;
+import java.util.Stack;
 
 /**
  * Implement an iterator over a binary search tree (BST). Your iterator will be
@@ -12,32 +12,47 @@ import java.util.LinkedList;
 public class BinarySearchTreeIterator {
 	
 	/*
-	 * 思路：使用链表保存二叉遍历序列即可
+	 * 思路：使用栈保存下一个节点
 	 */
-	LinkedList<TreeNode> list = new LinkedList<>();
-	int curr = 0;            //当前元素的下标
+	Stack<TreeNode> stack = new Stack<>();
 	
 	public BinarySearchTreeIterator(TreeNode root) {
-		inorder(root);
-	}
-	
-	/**
-	 * 中序遍历二叉树
-	 */
-	private void inorder(TreeNode node){
-		if(node == null) return;
-		inorder(node.left);
-		list.add(node);
-		inorder(node.right);
+		TreeNode curr = root;
+		while(curr != null){
+			stack.push(curr);
+			curr = curr.left;
+		}
 	}
 
 	/** @return the next smallest number */
 	public int next() {
-		return list.get(curr++).val;
+		TreeNode temp = stack.pop();
+		TreeNode curr = temp.right;
+		while(curr != null) {
+			stack.push(curr);
+			curr = curr.left;
+		}
+		return temp.val;
 	}
 
 	/** @return whether we have a next smallest number */
 	public boolean hasNext() {
-		return curr < list.size();
+		return stack.size() > 0;
+	}
+	
+	/**
+	 * 测试函数
+	 */
+	public static void main(String[] args) {
+		TreeNode root = new TreeNode(7);
+		root.left = new TreeNode(3);
+		TreeNode temp = new TreeNode(15);
+		temp.left = new TreeNode(9);
+		temp.right = new TreeNode(20);
+		root.right = temp;
+		BinarySearchTreeIterator sol = new BinarySearchTreeIterator(root);
+		while(sol.hasNext()){
+			System.out.println(sol.next());
+		}
 	}
 }
