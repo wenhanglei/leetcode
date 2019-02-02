@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|302|[Largest Number](src/medium/other/LargestNumber.java)|java|Medium|
 |301|[Binary Search Tree Iterator](src/medium/tree/BinarySearchTreeIterator.java)|Java|Medium|
 |300|[Fraction to Recurring Decimal](src/medium/other/Fraction2RecurringDecimal.java)|java|Medium|
 |299|[Compare Version Numbers](src/medium/string/CompareVersionNumbers.java)|java|Medium|
