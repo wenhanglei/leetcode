@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|304|[Binary Tree Right Side View](src/medium/tree/BinaryTreeRightSideView.java)|java|Medium|
 |303|[Repeated DNA Sequences](src/medium/other/RepeatedDNASequences.java)|java|Medium|
 |302|[Largest Number](src/medium/other/LargestNumber.java)|java|Medium|
 |301|[Binary Search Tree Iterator](src/medium/tree/BinarySearchTreeIterator.java)|Java|Medium|
