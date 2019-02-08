@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|306|[Bitwise AND of Numbers Range](src/medium/other/BitwiseANDOfNumbersRange.java)|java|Medium|
 |305|[Number of Islands](src/medium/other/NumberOfIslands.java)|java|Medium|
 |304|[Binary Tree Right Side View](src/medium/tree/BinaryTreeRightSideView.java)|java|Medium|
 |303|[Repeated DNA Sequences](src/medium/other/RepeatedDNASequences.java)|java|Medium|
