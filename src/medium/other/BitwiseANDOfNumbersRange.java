@@ -11,11 +11,16 @@ public class BitwiseANDOfNumbersRange {
 	 * 思路：逐个相与即可
 	 */
 	public int rangeBitwiseAnd(int m, int n) {
-		int ret = m++;
-		for(int i = m; i <= n; i++){
-			ret &= i;
-		}
-		return ret;
+		if(m == 0){
+            return 0;
+        }
+        int moveFactor = 1;
+        while(m != n){
+            m >>= 1;
+            n >>= 1;
+            moveFactor <<= 1;
+        }
+        return m * moveFactor;
 	}
 	
 	/**
