@@ -17,10 +17,13 @@ public class CourseSchedule {
 	public boolean canFinish(int numCourses, int[][] prerequisites) {
 		//边界检查
 		if(numCourses == 1) return true;
+		if(prerequisites == null || prerequisites.length == 0) return false;
 		boolean[] marked = new boolean[numCourses];
 		onStack = new boolean[numCourses];
 		dfs(prerequisites, marked, 0);
-		return !hasCircle;
+		if(hasCircle) return false;
+		for(boolean b : marked) if(!b) return false;
+		return true;
 	}
 	
 	private void dfs(int[][] grid, boolean[] marked, int v){
