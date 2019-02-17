@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|309|[Minimum Size Subarray Sum](src/medium/array/MinimumSizeSubarraySum.java)|java|Medium|
 |308|[Implement Trie](src/medium/other/ImplementTrie.java)|java|Medium|
 |307|[Course Schedule](src/medium/graph/CourseSchedule.java)|java|Medium|
 |306|[Bitwise AND of Numbers Range](src/medium/other/BitwiseANDOfNumbersRange.java)|java|Medium|
@@ -11,11 +12,11 @@ My LeetCode Solution
 |304|[Binary Tree Right Side View](src/medium/tree/BinaryTreeRightSideView.java)|java|Medium|
 |303|[Repeated DNA Sequences](src/medium/other/RepeatedDNASequences.java)|java|Medium|
 |302|[Largest Number](src/medium/other/LargestNumber.java)|java|Medium|
-|301|[Binary Search Tree Iterator](src/medium/tree/BinarySearchTreeIterator.java)|Java|Medium|
+|301|[Binary Search Tree Iterator](src/medium/tree/BinarySearchTreeIterator.java)|java|Medium|
 |300|[Fraction to Recurring Decimal](src/medium/other/Fraction2RecurringDecimal.java)|java|Medium|
 |299|[Compare Version Numbers](src/medium/string/CompareVersionNumbers.java)|java|Medium|
 |298|[Find Peak Element](src/medium/array/FindPeakElement.java)|java|Medium|
-|297|[Find Minimum in Rotated Sorted Array](src/medium/array/FindMinimumRotatedSortedArray.java)|Java|Medium|
+|297|[Find Minimum in Rotated Sorted Array](src/medium/array/FindMinimumRotatedSortedArray.java)|java|Medium|
 |296|[Maximum Product Subarray](src/medium/array/MaximumProductSubarray.java)|java|Medium|
 |295|[Reverse Words in a String](src/medium/string/ReverseWordsinString.java)|java|Medium|
 |294|[Evaluate Reverse Polish Notation](src/medium/other/EvaluateReversePolishNotation.java)|java|Medium|
