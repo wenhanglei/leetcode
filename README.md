@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|310|[Course Schedule II](src/medium/graph/CourseScheduleII.java)|java|Medium|
 |309|[Minimum Size Subarray Sum](src/medium/array/MinimumSizeSubarraySum.java)|java|Medium|
 |308|[Implement Trie](src/medium/other/ImplementTrie.java)|java|Medium|
 |307|[Course Schedule](src/medium/graph/CourseSchedule.java)|java|Medium|
