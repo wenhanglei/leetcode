@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|311|[Add and Search Word - Data structure design](src/medium/other/AddAndSearchWord.java)|java|Medium|
 |310|[Course Schedule II](src/medium/graph/CourseScheduleII.java)|java|Medium|
 |309|[Minimum Size Subarray Sum](src/medium/array/MinimumSizeSubarraySum.java)|java|Medium|
 |308|[Implement Trie](src/medium/other/ImplementTrie.java)|java|Medium|
