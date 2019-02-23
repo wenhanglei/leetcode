@@ -17,31 +17,23 @@ public class HouseRobberII {
 	 * 思路：使用动态规划解决，个数为奇数和偶数分别处理
 	 */
 	public int rob(int[] nums) {
-		// 边界检查
-		if (nums.length == 1)
-			return nums[0];
-		int oddSum = 0;
-		int sinSum = 0;
-		if (nums.length % 2 == 0) {
-			for (int i = 0; i < nums.length; i++) {
-				if (i % 2 == 0)
-					oddSum += nums[i];
-				else
-					sinSum += nums[i];
-			}
-			return Math.max(oddSum, sinSum);
-		} else {
-			for (int i = 0; i < nums.length - 1; i++) {
-				if (i % 2 == 0)
-					oddSum += nums[i];
-				else
-					sinSum += nums[i];
-			}
-			sinSum = Math.max(
-					(sinSum - nums[nums.length - 2] + nums[nums.length - 1]),
-					sinSum);
-			return Math.max(sinSum, oddSum);
+		//边界检查
+		if(nums == null || nums.length == 0) return 0;
+		if(nums.length == 1) return nums[0];
+		return Math.max(rob(nums, 0, nums.length-2),rob(nums, 1, nums.length-1));
+	}
+	
+	//指定上下界求能抢劫的最大和
+	private int rob(int[] nums, int lo, int hi){
+		int maxSoFar = 0;
+		int maxI = nums[lo];
+		for(int i = lo+1; i <= hi; i++){
+			int temp = maxI;
+			maxI = maxSoFar + nums[i];
+			if(temp > maxSoFar)
+				maxSoFar = temp;
 		}
+		return Math.max(maxSoFar, maxI);
 	}
 
 	/**
