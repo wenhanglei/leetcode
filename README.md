@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|313|[Kth Largest Element in an Array](src/medium/other/KthLargestElementinanArray.java)|java|Medium|
 |312|[House Robber II](src/medium/other/HouseRobberII.java)|java|Medium|
 |311|[Add and Search Word - Data structure design](src/medium/other/AddAndSearchWord.java)|java|Medium|
 |310|[Course Schedule II](src/medium/graph/CourseScheduleII.java)|java|Medium|
