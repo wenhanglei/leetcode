@@ -1,5 +1,7 @@
 package medium.other;
 
+import java.util.PriorityQueue;
+
 /**
  * 
  Find the kth largest element in an unsorted array. Note that it is the kth
@@ -9,12 +11,23 @@ package medium.other;
  */
 public class KthLargestElementinanArray {
 	/*
-	 * 思路：分治法解决即可
+	 * 思路：
+	 * 	方案一：分治法解决即可
+	 * 	方案二：小根堆解决
 	 */
 	public int findKthLargest(int[] nums, int k) {
-		partision(nums, 0, nums.length-1, k-1);
-		return nums[k-1];
+		PriorityQueue<Integer> pq = new PriorityQueue<>();
+		for(int i = 0; i < nums.length; i++){
+			pq.offer(nums[i]);
+			if(pq.size() > k) pq.poll();
+		}
+		return pq.poll();
 	}
+	
+//	public int findKthLargest(int[] nums, int k) {
+//		partision(nums, 0, nums.length-1, k-1);
+//		return nums[k-1];
+//	}
 	
 	private void partision(int[] nums, int lo, int hi, int k){
 		if(lo >= hi) return;
@@ -48,8 +61,9 @@ public class KthLargestElementinanArray {
 	 */
 	public static void main(String[] args) {
 		KthLargestElementinanArray sol = new KthLargestElementinanArray();
-		int[] nums = {3,2,3,1,2,4,5,5,6};
-		int ret = sol.findKthLargest(nums, 4);
+		int[] nums = {3,2,1,5,6,4};
+//		int[] nums = {3,2,3,1,2,4,5,5,6};
+		int ret = sol.findKthLargest(nums, 2);
 		System.out.println(ret);
 	}
 }
