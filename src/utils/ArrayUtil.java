@@ -13,4 +13,8 @@ public class ArrayUtil {
 		return list;
 	}
 	
+	public static String getValidArrayString(String str){
+		return str.replace("[", "{").replace("]", "}");
+	}
+	
 }
