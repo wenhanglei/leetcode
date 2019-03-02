@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|317|[Count Complete Tree Nodes](src/medium/tree/CountCompleteTreeNodes.java)|java|Medium|
 |316|[Maximal Square](src/medium/other/MaximalSquare.java)|java|Medium|
 |315|[Contains Duplicate III](src/medium/tree/ContainsDuplicateIII.java)|java|Medium|
 |314|[Combination Sum III](src/medium/array/CombinationSumIII.java)|java|Medium|
