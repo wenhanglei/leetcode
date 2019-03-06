@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|321|[Majority Element II](src/medium/array/MajorityElementII.java)|java|Medium|
 |320|[Summary Ranges](src/medium/array/SummaryRanges.java)|java|Medium|
 |319|[Basic Calculator II](src/medium/string/BasicCalculatorII.java)|java|Medium|
 |318|[Rectangle Area](src/medium/math/RectangleArea.java)|java|Medium|
