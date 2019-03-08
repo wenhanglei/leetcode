@@ -8,7 +8,7 @@ package medium.array;
  */
 public class MajorityElementII {
 	/*
-	 * 思路：摩尔投票算法
+	 * 思路：摩尔投票算法，使用两个计数器保存两个候选码
 	 */
 	public List<Integer> majorityElement(int[] nums) {
 		
