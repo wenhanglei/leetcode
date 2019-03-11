@@ -8,7 +8,7 @@ package medium.tree;
  */
 public class KthSmallestElementinBST {
 	/*
-	 * 思路：
+	 * 思路：求第k小的值
 	 */
 	public int kthSmallest(TreeNode root, int k) {
 
