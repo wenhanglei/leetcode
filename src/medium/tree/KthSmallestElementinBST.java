@@ -18,7 +18,7 @@ public class KthSmallestElementinBST {
 	}
 	
 	private void inorder(TreeNode node, int k){
-		if(node ==null || ret == null) return;
+		if(node ==null || ret != null) return;
 		inorder(node.left, k);
 		count++;
 		if(count == k) ret = node.val;
