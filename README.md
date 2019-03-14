@@ -4,6 +4,7 @@ My LeetCode Solution
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|323|[Lowest Common Ancestor of a Binary Tree](src/medium/tree/LowestCommonAncestorofBinaryTree.java)|java|Medium|
 |322|[Kth Smallest Element in a BST](src/medium/tree/KthSmallestElementinBST.java)|java|Medium|
 |321|[Majority Element II](src/medium/array/MajorityElementII.java)|java|Medium|
 |320|[Summary Ranges](src/medium/array/SummaryRanges.java)|java|Medium|
