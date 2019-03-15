@@ -11,7 +11,7 @@ package medium.tree;
  */
 public class LowestCommonAncestorofBinaryTree {
 	/*
-	 * 思路：
+	 * 思路：查找三个数的最低共同祖先
 	 */
 	public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
 
