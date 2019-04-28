@@ -58,7 +58,7 @@ public class BinaryTreeZigzagLevelOrderTraversal {
 	 * 测试函数
 	 */
 	public static void main(String[] args) {
-		TreeNode tree = TreeUtils.getTree(new int[]{3,9,20,'#','#',15,7});
+		TreeNode tree = TreeUtils.getTree(new Integer[]{3,9,20,null,null,15,7});
 		BinaryTreeZigzagLevelOrderTraversal sol = new BinaryTreeZigzagLevelOrderTraversal();
 		List<List<Integer>> ret = sol.zigzagLevelOrder(tree);
 		System.out.println(ret);

@@ -38,7 +38,7 @@ public class PathSumII {
 	 */
 	public static void main(String[] args) {
 //		TreeNode node = TreeUtils.getTree(new int[]{5,4,8,11,'#',13,4,7,2,'#','#','#', '#', 5,1});
-		TreeNode node = TreeUtils.getTree(new int[]{-2, '#', -3});
+		TreeNode node = TreeUtils.getTree(new Integer[]{-2, null, -3});
 		PathSumII sol = new PathSumII();
 		List<List<Integer>> ret = sol.pathSum(node, -5);
 		System.out.println(ret);
