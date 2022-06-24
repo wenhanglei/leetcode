@@ -2,6 +2,8 @@
 bin/
 tmp/
 target/
+out/
+*.iml
 *.tmp
 *.bak
 *.swp
